@@ -1,76 +1,150 @@
-15:107  6:770  Found UEFI Acpi 2.0 RSDP at 8CEFD014
-15:107  0:000  Saving ACPI tables from RSDP 8CEFD014 to EFI\CLOVER\ACPI\origin ...
-15:107  0:000   8CEFD014: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
-15:107  0:000    (Xsdt: 8CEC0188, Rsdt: 8CEC00C4)
-15:107  0:000    8CEC0188: 'XSDT', 'XMCC1501', Rev: 1, Len: 284
-15:107  0:000    8CEC00C4: 'RSDT', 'XMCC1501', Rev: 1, Len: 160
-15:107  0:000    Tables in Xsdt: 31
-15:107  0:000    0. 8CEE5000: 'FACP', 'XMCC1501', Rev: 5, Len: 244
-15:107  0:000        (Dsdt: 8CEC2000, Facs: 8CE4E000, XDsdt: 8CEC2000, XFacs: 0)
-15:107  0:000        8CEC2000: 'DSDT', 'XMCC1501', Rev: 2, Len: 123559
-15:113  0:005        8CE4E000: 'FACS', Ver: 2, Len: 64
-15:113  0:000    1. 8CEFC000: 'TCPA', 'XMCC1501', Rev: 2, Len: 50
-15:113  0:000    2. 8CEFB000: 'UEFI', 'XMCC1501', Rev: 1, Len: 566
-15:113  0:000    3. 8CEFA000: 'UEFI', 'XMCC1501', Rev: 1, Len: 66
-15:113  0:000    4. 8CEF9000: 'SSDT', 'XMCC1501', Rev: 2, Len: 1207
-15:113  0:000    5. 8CEF8000: 'SSDT', 'XMCC1501', Rev: 2, Len: 75
-15:113  0:000    6. 8CEF7000: 'TPM2', 'XMCC1501', Rev: 3, Len: 52
-15:113  0:000    7. 8CEF6000: 'MSDM', 'XMCC1501', Rev: 3, Len: 85
-15:113  0:000    8. 8CEF0000: 'SSDT', 'XMCC1501', Rev: 2, Len: 21230
-15:113  0:000    9. 8CEEC000: 'SSDT', 'XMCC1501', Rev: 2, Len: 13175
-15:113  0:000    10. 8CEEB000: 'DBGP', 'XMCC1501', Rev: 1, Len: 52
-15:113  0:000    11. 8CEEA000: 'DBG2', 'XMCC1501', Rev: 0, Len: 84
-15:113  0:000    12. 8CEE9000: 'ASF!', 'XMCC1501', Rev: 32, Len: 165
-15:113  0:000    13. 8CEE8000: 'ASPT', 'XMCC1501', Rev: 7, Len: 52
-15:113  0:000    14. 8CEE7000: 'BOOT', 'XMCC1501', Rev: 1, Len: 40
-15:113  0:000    15. 8CEE6000: 'DBGP', 'XMCC1501', Rev: 1, Len: 52
-15:113  0:000    16. 8CEE4000: 'HPET', 'XMCC1501', Rev: 1, Len: 56
-15:113  0:000    17. 8CEE3000: 'LPIT', 'XMCC1501', Rev: 1, Len: 148
-15:113  0:000    18. 8CEE2000: 'APIC', 'XMCC1501', Rev: 3, Len: 188
-15:113  0:000    19. 8CEE1000: 'MCFG', 'XMCC1501', Rev: 1, Len: 60
-15:113  0:000    20. 8CEC1000: 'SSDT', 'XMCC1501', Rev: 1, Len: 724
-15:113  0:000    21. 8CEBD000: 'SSDT', 'XMCC1501', Rev: 2, Len: 11182
-15:113  0:000    22. 8CEBC000: 'SSDT', 'XMCC1501', Rev: 2, Len: 477
-15:113  0:000    23. 8CEBB000: 'SSDT', 'XMCC1501', Rev: 2, Len: 410
-15:113  0:000    24. 8CEBA000: 'SSDT', 'XMCC1501', Rev: 2, Len: 2889
-15:113  0:000    25. 8CEB9000: 'SSDT', 'XMCC1501', Rev: 2, Len: 1187
-15:113  0:000    26. 8CEB8000: 'SSDT', 'XMCC1501', Rev: 2, Len: 3699
-15:113  0:000    27. 8CEB7000: 'DMAR', 'XMCC1501', Rev: 1, Len: 240
-15:113  0:000    28. 8CEB6000: 'FPDT', 'XMCC1501', Rev: 1, Len: 68
-15:113  0:000    29. 8CEB4000: 'WPBT', 'XMCC1501', Rev: 1, Len: 76
-15:113  0:000    30. 8CEB3000: 'BGRT', 'XMCC1501', Rev: 1, Len: 56
-15:113  0:000    Tables in Rsdt: 31
-15:113  0:000    0. 8CEE5000: 'FACP', 'XMCC1501', Rev: 5, Len: 244
-15:113  0:000        (Dsdt: 8CEC2000, Facs: 8CE4E000, XDsdt: 8CEC2000, XFacs: 0)
-15:113  0:000        8CEC2000: 'DSDT', 'XMCC1501', Rev: 2, Len: 123559
-15:118  0:005        8CE4E000: 'FACS', Ver: 2, Len: 64
-15:118  0:000    1. 8CEFC000: 'TCPA', 'XMCC1501', Rev: 2, Len: 50
-15:118  0:000    2. 8CEFB000: 'UEFI', 'XMCC1501', Rev: 1, Len: 566
-15:118  0:000    3. 8CEFA000: 'UEFI', 'XMCC1501', Rev: 1, Len: 66
-15:118  0:000    4. 8CEF9000: 'SSDT', 'XMCC1501', Rev: 2, Len: 1207
-15:118  0:000    5. 8CEF8000: 'SSDT', 'XMCC1501', Rev: 2, Len: 75
-15:118  0:000    6. 8CEF7000: 'TPM2', 'XMCC1501', Rev: 3, Len: 52
-15:118  0:000    7. 8CEF6000: 'MSDM', 'XMCC1501', Rev: 3, Len: 85
-15:118  0:000    8. 8CEF0000: 'SSDT', 'XMCC1501', Rev: 2, Len: 21230
-15:118  0:000    9. 8CEEC000: 'SSDT', 'XMCC1501', Rev: 2, Len: 13175
-15:118  0:000    10. 8CEEB000: 'DBGP', 'XMCC1501', Rev: 1, Len: 52
-15:118  0:000    11. 8CEEA000: 'DBG2', 'XMCC1501', Rev: 0, Len: 84
-15:118  0:000    12. 8CEE9000: 'ASF!', 'XMCC1501', Rev: 32, Len: 165
-15:118  0:000    13. 8CEE8000: 'ASPT', 'XMCC1501', Rev: 7, Len: 52
-15:118  0:000    14. 8CEE7000: 'BOOT', 'XMCC1501', Rev: 1, Len: 40
-15:118  0:000    15. 8CEE6000: 'DBGP', 'XMCC1501', Rev: 1, Len: 52
-15:118  0:000    16. 8CEE4000: 'HPET', 'XMCC1501', Rev: 1, Len: 56
-15:118  0:000    17. 8CEE3000: 'LPIT', 'XMCC1501', Rev: 1, Len: 148
-15:118  0:000    18. 8CEE2000: 'APIC', 'XMCC1501', Rev: 3, Len: 188
-15:118  0:000    19. 8CEE1000: 'MCFG', 'XMCC1501', Rev: 1, Len: 60
-15:118  0:000    20. 8CEC1000: 'SSDT', 'XMCC1501', Rev: 1, Len: 724
-15:118  0:000    21. 8CEBD000: 'SSDT', 'XMCC1501', Rev: 2, Len: 11182
-15:118  0:000    22. 8CEBC000: 'SSDT', 'XMCC1501', Rev: 2, Len: 477
-15:118  0:000    23. 8CEBB000: 'SSDT', 'XMCC1501', Rev: 2, Len: 410
-15:118  0:000    24. 8CEBA000: 'SSDT', 'XMCC1501', Rev: 2, Len: 2889
-15:118  0:000    25. 8CEB9000: 'SSDT', 'XMCC1501', Rev: 2, Len: 1187
-15:118  0:000    26. 8CEB8000: 'SSDT', 'XMCC1501', Rev: 2, Len: 3699
-15:118  0:000    27. 8CEB7000: 'DMAR', 'XMCC1501', Rev: 1, Len: 240
-15:118  0:000    28. 8CEB6000: 'FPDT', 'XMCC1501', Rev: 1, Len: 68
-15:118  0:000    29. 8CEB4000: 'WPBT', 'XMCC1501', Rev: 1, Len: 76
-15:118  0:000    30. 8CEB3000: 'BGRT', 'XMCC1501', Rev: 1, Len: 56
+5:222  0:238  Found BIOS RSDP at FCC00
+5:222  0:000  Printing ACPI tables from RSDP FCC00 ...
+5:222  0:000   FCC00: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+5:222  0:000    (Xsdt: 9A2F7098, Rsdt: 9A2F7028)
+5:222  0:000    9A2F7098: 'XSDT', 'MEGABOOK', Rev: 1, Len: 180
+5:222  0:000    9A2F7028: 'RSDT', 'MEGABOOK', Rev: 1, Len: 108
+5:222  0:000    Tables in Xsdt: 18
+5:222  0:000    0. 9A30D510: 'FACP', 'MEGABOOK', Rev: 5, Len: 268
+5:222  0:000        (Dsdt: 9A2F71E8, Facs: 9ACBAF80, XDsdt: 9A2F71E8, XFacs: 0)
+5:222  0:000        9A2F71E8: 'DSDT', 'MEGABOOK', Rev: 2, Len: 90920
+5:223  0:001        9ACBAF80: 'FACS', Ver: 2, Len: 64
+5:223  0:000    1. 9A30D620: 'APIC', 'MEGABOOK', Rev: 3, Len: 188
+5:223  0:000    2. 9A30D6E0: 'FPDT', 'MEGABOOK', Rev: 1, Len: 68
+5:223  0:000    3. 9A30D728: 'FIDT', 'MEGABOOK', Rev: 1, Len: 156
+5:223  0:000    4. 9A30D7C8: 'ECDT', 'MEGABOOK', Rev: 1, Len: 193
+5:223  0:000    5. 9A30D890: 'MCFG', 'MEGABOOK', Rev: 1, Len: 60
+5:223  0:000    6. 9A30D8D0: 'HPET', 'MEGABOOK', Rev: 1, Len: 56
+5:223  0:000    7. 9A30D908: 'SSDT', 'SataTabl', Rev: 1, Len: 789
+5:223  0:000    8. 9A30DC20: 'UEFI', '', Rev: 1, Len: 66
+5:223  0:000    9. 9A30DC68: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 3197
+5:223  0:000    10. 9A30E8E8: 'ASF!', ' HCG', Rev: 32, Len: 160
+5:223  0:000    11. 9A30E988: 'SLIC', 'MEGABOOK', Rev: 1, Len: 374
+5:223  0:000    12. 9A30EB00: 'SSDT', 'Cpu0Ist', Rev: 2, Len: 1337
+5:223  0:000    13. 9A30F040: 'SSDT', 'CpuSsdt', Rev: 2, Len: 2932
+5:223  0:000    14. 9A30FBB8: 'SSDT', 'SaSsdt', Rev: 2, Len: 24084
+5:223  0:000    15. 9A3159D0: 'SSDT', 'SgPeg', Rev: 2, Len: 663
+5:223  0:000    16. 9A315C68: 'BGRT', 'MEGABOOK', Rev: 1, Len: 56
+5:223  0:000    17. 9A315CA0: 'SSDT', 'OptTabl', Rev: 1, Len: 5077
+5:223  0:000    Tables in Rsdt: 18
+5:223  0:000    0. 9A2F7160: 'FACP', 'MEGABOOK', Rev: 2, Len: 132
+5:223  0:000        (Dsdt: 9A2F71E8, Facs: 9ACBAF40)
+5:223  0:000        9A2F71E8: 'DSDT', 'MEGABOOK', Rev: 2, Len: 90920
+5:224  0:001        9ACBAF40: 'FACS', Ver: 0, Len: 64
+5:224  0:000    1. 9A30D620: 'APIC', 'MEGABOOK', Rev: 3, Len: 188
+5:224  0:000    2. 9A30D6E0: 'FPDT', 'MEGABOOK', Rev: 1, Len: 68
+5:224  0:000    3. 9A30D728: 'FIDT', 'MEGABOOK', Rev: 1, Len: 156
+5:224  0:000    4. 9A30D7C8: 'ECDT', 'MEGABOOK', Rev: 1, Len: 193
+5:224  0:000    5. 9A30D890: 'MCFG', 'MEGABOOK', Rev: 1, Len: 60
+5:224  0:000    6. 9A30D8D0: 'HPET', 'MEGABOOK', Rev: 1, Len: 56
+5:224  0:000    7. 9A30D908: 'SSDT', 'SataTabl', Rev: 1, Len: 789
+5:224  0:000    8. 9A30DC20: 'UEFI', '', Rev: 1, Len: 66
+5:224  0:000    9. 9A30DC68: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 3197
+5:224  0:000    10. 9A30E8E8: 'ASF!', ' HCG', Rev: 32, Len: 160
+5:224  0:000    11. 9A30E988: 'SLIC', 'MEGABOOK', Rev: 1, Len: 374
+5:224  0:000    12. 9A30EB00: 'SSDT', 'Cpu0Ist', Rev: 2, Len: 1337
+5:224  0:000    13. 9A30F040: 'SSDT', 'CpuSsdt', Rev: 2, Len: 2932
+5:224  0:000    14. 9A30FBB8: 'SSDT', 'SaSsdt', Rev: 2, Len: 24084
+5:224  0:000    15. 9A3159D0: 'SSDT', 'SgPeg', Rev: 2, Len: 663
+5:224  0:000    16. 9A315C68: 'BGRT', 'MEGABOOK', Rev: 1, Len: 56
+5:224  0:000    17. 9A315CA0: 'SSDT', 'OptTabl', Rev: 1, Len: 5077
+5:224  0:000  Found UEFI Acpi 2.0 RSDP at 9A2F7000
+5:224  0:000  Saving ACPI tables from RSDP 9A2F7000 to EFI\CLOVER\ACPI\origin ...
+5:224  0:000   9A2F7000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+5:224  0:000    (Xsdt: 9A2F7098, Rsdt: 9A2F7028)
+5:224  0:000    9A2F7098: 'XSDT', 'MEGABOOK', Rev: 1, Len: 180
+5:224  0:000    9A2F7028: 'RSDT', 'MEGABOOK', Rev: 1, Len: 108
+5:224  0:000    Tables in Xsdt: 18
+5:224  0:000    0. 9A30D510: 'FACP', 'MEGABOOK', Rev: 5, Len: 268
+5:224  0:000        (Dsdt: 9A2F71E8, Facs: 9ACBAF80, XDsdt: 9A2F71E8, XFacs: 0)
+5:224  0:000        9A2F71E8: 'DSDT', 'MEGABOOK', Rev: 2, Len: 90920
+5:226  0:001        9ACBAF80: 'FACS', Ver: 2, Len: 64
+5:226  0:000    1. 9A30D620: 'APIC', 'MEGABOOK', Rev: 3, Len: 188
+5:226  0:000    2. 9A30D6E0: 'FPDT', 'MEGABOOK', Rev: 1, Len: 68
+5:226  0:000    3. 9A30D728: 'FIDT', 'MEGABOOK', Rev: 1, Len: 156
+5:226  0:000    4. 9A30D7C8: 'ECDT', 'MEGABOOK', Rev: 1, Len: 193
+5:226  0:000    5. 9A30D890: 'MCFG', 'MEGABOOK', Rev: 1, Len: 60
+5:226  0:000    6. 9A30D8D0: 'HPET', 'MEGABOOK', Rev: 1, Len: 56
+5:226  0:000    7. 9A30D908: 'SSDT', 'SataTabl', Rev: 1, Len: 789
+5:226  0:000    8. 9A30DC20: 'UEFI', '', Rev: 1, Len: 66
+5:226  0:000    9. 9A30DC68: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 3197
+5:226  0:000    10. 9A30E8E8: 'ASF!', ' HCG', Rev: 32, Len: 160
+5:226  0:000    11. 9A30E988: 'SLIC', 'MEGABOOK', Rev: 1, Len: 374
+5:226  0:000    12. 9A30EB00: 'SSDT', 'Cpu0Ist', Rev: 2, Len: 1337
+5:226  0:000    13. 9A30F040: 'SSDT', 'CpuSsdt', Rev: 2, Len: 2932
+5:226  0:000    14. 9A30FBB8: 'SSDT', 'SaSsdt', Rev: 2, Len: 24084
+5:226  0:000    15. 9A3159D0: 'SSDT', 'SgPeg', Rev: 2, Len: 663
+5:226  0:000    16. 9A315C68: 'BGRT', 'MEGABOOK', Rev: 1, Len: 56
+5:226  0:000    17. 9A315CA0: 'SSDT', 'OptTabl', Rev: 1, Len: 5077
+5:226  0:000    Tables in Rsdt: 18
+5:226  0:000    0. 9A2F7160: 'FACP', 'MEGABOOK', Rev: 2, Len: 132
+5:226  0:000        (Dsdt: 9A2F71E8, Facs: 9ACBAF40)
+5:226  0:000        9A2F71E8: 'DSDT', 'MEGABOOK', Rev: 2, Len: 90920
+5:227  0:001        9ACBAF40: 'FACS', Ver: 0, Len: 64
+5:227  0:000    1. 9A30D620: 'APIC', 'MEGABOOK', Rev: 3, Len: 188
+5:227  0:000    2. 9A30D6E0: 'FPDT', 'MEGABOOK', Rev: 1, Len: 68
+5:227  0:000    3. 9A30D728: 'FIDT', 'MEGABOOK', Rev: 1, Len: 156
+5:227  0:000    4. 9A30D7C8: 'ECDT', 'MEGABOOK', Rev: 1, Len: 193
+5:227  0:000    5. 9A30D890: 'MCFG', 'MEGABOOK', Rev: 1, Len: 60
+5:227  0:000    6. 9A30D8D0: 'HPET', 'MEGABOOK', Rev: 1, Len: 56
+5:227  0:000    7. 9A30D908: 'SSDT', 'SataTabl', Rev: 1, Len: 789
+5:227  0:000    8. 9A30DC20: 'UEFI', '', Rev: 1, Len: 66
+5:227  0:000    9. 9A30DC68: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 3197
+5:227  0:000    10. 9A30E8E8: 'ASF!', ' HCG', Rev: 32, Len: 160
+5:227  0:000    11. 9A30E988: 'SLIC', 'MEGABOOK', Rev: 1, Len: 374
+5:227  0:000    12. 9A30EB00: 'SSDT', 'Cpu0Ist', Rev: 2, Len: 1337
+5:227  0:000    13. 9A30F040: 'SSDT', 'CpuSsdt', Rev: 2, Len: 2932
+5:227  0:000    14. 9A30FBB8: 'SSDT', 'SaSsdt', Rev: 2, Len: 24084
+5:227  0:000    15. 9A3159D0: 'SSDT', 'SgPeg', Rev: 2, Len: 663
+5:227  0:000    16. 9A315C68: 'BGRT', 'MEGABOOK', Rev: 1, Len: 56
+5:227  0:000    17. 9A315CA0: 'SSDT', 'OptTabl', Rev: 1, Len: 5077
+5:227  0:000  Found UEFI Acpi 1.0 RSDP at 9A2F7000
+5:227  0:000  Printing ACPI tables from RSDP 9A2F7000 ...
+5:227  0:000   9A2F7000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+5:227  0:000    (Xsdt: 9A2F7098, Rsdt: 9A2F7028)
+5:227  0:000    9A2F7098: 'XSDT', 'MEGABOOK', Rev: 1, Len: 180
+5:227  0:000    9A2F7028: 'RSDT', 'MEGABOOK', Rev: 1, Len: 108
+5:227  0:000    Tables in Xsdt: 18
+5:227  0:000    0. 9A30D510: 'FACP', 'MEGABOOK', Rev: 5, Len: 268
+5:227  0:000        (Dsdt: 9A2F71E8, Facs: 9ACBAF80, XDsdt: 9A2F71E8, XFacs: 0)
+5:227  0:000        9A2F71E8: 'DSDT', 'MEGABOOK', Rev: 2, Len: 90920
+5:229  0:001        9ACBAF80: 'FACS', Ver: 2, Len: 64
+5:229  0:000    1. 9A30D620: 'APIC', 'MEGABOOK', Rev: 3, Len: 188
+5:229  0:000    2. 9A30D6E0: 'FPDT', 'MEGABOOK', Rev: 1, Len: 68
+5:229  0:000    3. 9A30D728: 'FIDT', 'MEGABOOK', Rev: 1, Len: 156
+5:229  0:000    4. 9A30D7C8: 'ECDT', 'MEGABOOK', Rev: 1, Len: 193
+5:229  0:000    5. 9A30D890: 'MCFG', 'MEGABOOK', Rev: 1, Len: 60
+5:229  0:000    6. 9A30D8D0: 'HPET', 'MEGABOOK', Rev: 1, Len: 56
+5:229  0:000    7. 9A30D908: 'SSDT', 'SataTabl', Rev: 1, Len: 789
+5:229  0:000    8. 9A30DC20: 'UEFI', '', Rev: 1, Len: 66
+5:229  0:000    9. 9A30DC68: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 3197
+5:229  0:000    10. 9A30E8E8: 'ASF!', ' HCG', Rev: 32, Len: 160
+5:229  0:000    11. 9A30E988: 'SLIC', 'MEGABOOK', Rev: 1, Len: 374
+5:229  0:000    12. 9A30EB00: 'SSDT', 'Cpu0Ist', Rev: 2, Len: 1337
+5:229  0:000    13. 9A30F040: 'SSDT', 'CpuSsdt', Rev: 2, Len: 2932
+5:229  0:000    14. 9A30FBB8: 'SSDT', 'SaSsdt', Rev: 2, Len: 24084
+5:229  0:000    15. 9A3159D0: 'SSDT', 'SgPeg', Rev: 2, Len: 663
+5:229  0:000    16. 9A315C68: 'BGRT', 'MEGABOOK', Rev: 1, Len: 56
+5:229  0:000    17. 9A315CA0: 'SSDT', 'OptTabl', Rev: 1, Len: 5077
+5:229  0:000    Tables in Rsdt: 18
+5:229  0:000    0. 9A2F7160: 'FACP', 'MEGABOOK', Rev: 2, Len: 132
+5:229  0:000        (Dsdt: 9A2F71E8, Facs: 9ACBAF40)
+5:229  0:000        9A2F71E8: 'DSDT', 'MEGABOOK', Rev: 2, Len: 90920
+5:230  0:001        9ACBAF40: 'FACS', Ver: 0, Len: 64
+5:230  0:000    1. 9A30D620: 'APIC', 'MEGABOOK', Rev: 3, Len: 188
+5:230  0:000    2. 9A30D6E0: 'FPDT', 'MEGABOOK', Rev: 1, Len: 68
+5:230  0:000    3. 9A30D728: 'FIDT', 'MEGABOOK', Rev: 1, Len: 156
+5:230  0:000    4. 9A30D7C8: 'ECDT', 'MEGABOOK', Rev: 1, Len: 193
+5:230  0:000    5. 9A30D890: 'MCFG', 'MEGABOOK', Rev: 1, Len: 60
+5:230  0:000    6. 9A30D8D0: 'HPET', 'MEGABOOK', Rev: 1, Len: 56
+5:230  0:000    7. 9A30D908: 'SSDT', 'SataTabl', Rev: 1, Len: 789
+5:230  0:000    8. 9A30DC20: 'UEFI', '', Rev: 1, Len: 66
+5:230  0:000    9. 9A30DC68: 'SSDT', 'Ther_Rvp', Rev: 2, Len: 3197
+5:230  0:000    10. 9A30E8E8: 'ASF!', ' HCG', Rev: 32, Len: 160
+5:230  0:000    11. 9A30E988: 'SLIC', 'MEGABOOK', Rev: 1, Len: 374
+5:230  0:000    12. 9A30EB00: 'SSDT', 'Cpu0Ist', Rev: 2, Len: 1337
+5:230  0:000    13. 9A30F040: 'SSDT', 'CpuSsdt', Rev: 2, Len: 2932
+5:230  0:000    14. 9A30FBB8: 'SSDT', 'SaSsdt', Rev: 2, Len: 24084
+5:230  0:000    15. 9A3159D0: 'SSDT', 'SgPeg', Rev: 2, Len: 663
+5:230  0:000    16. 9A315C68: 'BGRT', 'MEGABOOK', Rev: 1, Len: 56
+5:230  0:000    17. 9A315CA0: 'SSDT', 'OptTabl', Rev: 1, Len: 5077
