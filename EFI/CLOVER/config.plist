@@ -282,7 +282,7 @@
 		<key>#DefaultVolume</key>
 		<string>LastBootedVolume</string>
 		<key>Arguments</key>
-		<string>dart=0 nv_disable=1 kext-dev-mode=1</string>
+		<string>nv_disable=1 dart=0 kext-dev-mode=1 -disablegfxfirmware -lilubetaall -alcbeta</string>
 		<key>NeverHibernate</key>
 		<true/>
 		<key>Secure</key>
@@ -322,14 +322,14 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>layout-id=3</string>
+				<string>layout-id=2</string>
 				<key>Device</key>
 				<string>HDA</string>
 				<key>Key</key>
 				<string>layout-id</string>
 				<key>Value</key>
 				<data>
-				AwAAAA==
+				AgAAAA==
 				</data>
 			</dict>
 			<dict>
@@ -457,16 +457,17 @@
 		<dict>
 			<key>Inject</key>
 			<integer>3</integer>
-			<key>ResetHDA</key>
-			<true/>
+		</dict>
+		<key>FakeID</key>
+		<dict>
+			<key>IntelGFX</key>
+			<string>0x12345678</string>
 		</dict>
 		<key>USB</key>
 		<dict>
 			<key>AddClockID</key>
 			<true/>
 			<key>FixOwnership</key>
-			<true/>
-			<key>HighCurrent</key>
 			<true/>
 			<key>Inject</key>
 			<true/>
@@ -531,7 +532,7 @@
 			<true/>
 		</dict>
 		<key>Theme</key>
-		<string>BGM</string>
+		<string>Xiaomi</string>
 	</dict>
 	<key>Graphics</key>
 	<dict>
@@ -588,65 +589,27 @@
 		<array>
 			<dict>
 				<key>Comment</key>
-				<string>扩展磁盘图标补丁</string>
+				<string>Disable minStolenSize less or equal fStolenMemorySize assertion, 10.14 Credits (Sniki)</string>
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
 				<data>
-				RXh0ZXJuYWw=
+				dkBI/wU=
 				</data>
 				<key>InfoPlistPatch</key>
 				<false/>
 				<key>Name</key>
-				<string>com.apple.driver.AppleAHCIPort</string>
+				<string>com.apple.driver.AppleIntelSKLGraphicsFramebuffer</string>
 				<key>Replace</key>
 				<data>
-				SW50ZXJuYWw=
-				</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>AppleBacklightInjector.kext (credit RehabMan)</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Find</key>
-				<data>
-				RiV1VCUwNHgA
-				</data>
-				<key>InfoPlistPatch</key>
-				<false/>
-				<key>Name</key>
-				<string>com.apple.driver.AppleBacklight</string>
-				<key>Replace</key>
-				<data>
-				RiV1VHh4eHgA
-				</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>QE/CE 515</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Find</key>
-				<data>
-				iUXIOcZ2UQ==
-				</data>
-				<key>InfoPlistPatch</key>
-				<false/>
-				<key>MatchOS</key>
-				<string>10.12.x</string>
-				<key>Name</key>
-				<string>AppleIntelSKLGraphicsFramebuffer</string>
-				<key>Replace</key>
-				<data>
-				iUXIOcbrUQ==
+				60BI/wU=
 				</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
 				<string>0x19160000/etc, 32MB BIOS, 19MB framebuffer 9MB cursor bytes (credit RehabMan)</string>
 				<key>Disabled</key>
-				<false/>
+				<true/>
 				<key>Find</key>
 				<data>
 				AAAgAgAAUAE=
@@ -664,7 +627,7 @@
 				<key>Comment</key>
 				<string>eDP, port 0000, 0x191e0000, 0x19160000, 0x19260000, 0x19270000, 0x191b0000, 0x19160002, 0x19260002, 0x191e0003, 0x19260004, 0x19270004, 0x193b0005 credit syscl</string>
 				<key>Disabled</key>
-				<false/>
+				<true/>
 				<key>Find</key>
 				<data>
 				AAAIAAIAAACYAAAAAQUJAAAEAAA=
@@ -682,7 +645,7 @@
 				<key>Comment</key>
 				<string>Enable lid wake for 0x19260002 credit syscl/lighting/Yating Zhou</string>
 				<key>Disabled</key>
-				<false/>
+				<true/>
 				<key>Find</key>
 				<data>
 				ChMDAAAABgAAAAAAAAAAAA==
@@ -700,7 +663,7 @@
 				<key>Comment</key>
 				<string>Enable lid wake for 0x19260004 credit syscl/lighting/Yating Zhou</string>
 				<key>Disabled</key>
-				<false/>
+				<true/>
 				<key>Find</key>
 				<data>
 				CgsDAAAHBgADAAAABAAAAA==
@@ -728,17 +691,17 @@
 	<key>SMBIOS</key>
 	<dict>
 		<key>BiosReleaseDate</key>
-		<string>02/08/2018</string>
+		<string>04/09/2018</string>
 		<key>BiosVendor</key>
 		<string>Apple Inc.</string>
 		<key>BiosVersion</key>
-		<string>MB91.88Z.0166.B00.1802080854</string>
+		<string>MBP91.88Z.00DA.B00.1804091930</string>
 		<key>Board-ID</key>
-		<string>Mac-9AE82516C7C6B903</string>
+		<string>Mac-4B7AC7E43945597E</string>
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>C02747403OPFF4J1H</string>
+		<string>C022198024NF49R1F</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
@@ -748,65 +711,25 @@
 		<key>ChassisManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>ChassisType</key>
-		<string>0x09</string>
+		<string>0x0A</string>
 		<key>Family</key>
-		<string>MacBook</string>
+		<string>MacBook Pro</string>
 		<key>FirmwareFeatures</key>
-		<string>0xFC0FE13F</string>
+		<string>0xC00DE137</string>
 		<key>FirmwareFeaturesMask</key>
 		<string>0xFF1FFF3F</string>
 		<key>LocationInChassis</key>
 		<string>Part Component</string>
 		<key>Manufacturer</key>
 		<string>Apple Inc.</string>
-		<key>Memory</key>
-		<dict>
-			<key>Modules</key>
-			<array>
-				<dict>
-					<key>Frequency</key>
-					<integer>1800</integer>
-					<key>Part</key>
-					<string>Unknown</string>
-					<key>Serial</key>
-					<string>9CCNNNBKTMLBR-NUD</string>
-					<key>Size</key>
-					<integer>2048</integer>
-					<key>Slot</key>
-					<integer>0</integer>
-					<key>Type</key>
-					<string>DDR3</string>
-					<key>Vendor</key>
-					<string>SK Hynix</string>
-				</dict>
-				<dict>
-					<key>Frequency</key>
-					<integer>1800</integer>
-					<key>Part</key>
-					<string>Unknown</string>
-					<key>Serial</key>
-					<string>9CCNNNBKTMLBR-NUD</string>
-					<key>Size</key>
-					<integer>2048</integer>
-					<key>Slot</key>
-					<integer>1</integer>
-					<key>Type</key>
-					<string>DDR3</string>
-					<key>Vendor</key>
-					<string>SK Hynix</string>
-				</dict>
-			</array>
-		</dict>
 		<key>Mobile</key>
 		<true/>
 		<key>PlatformFeature</key>
-		<string>0x1A</string>
+		<string>0xFFFF</string>
 		<key>ProductName</key>
-		<string>MacBook9,1</string>
+		<string>MacBookPro9,1</string>
 		<key>SerialNumber</key>
-		<string>C02VR2ISHDNK</string>
-		<key>SmUUID</key>
-		<string>6B2D1D44-ABEA-4A2E-92CD-54AC71960D53</string>
+		<string>C02HQ1UOF1G4</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
