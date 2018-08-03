@@ -33,7 +33,7 @@
 					<key>Comment</key>
 					<string>change _DSM to XDSM</string>
 					<key>Disabled</key>
-					<false/>
+					<true/>
 					<key>Find</key>
 					<data>
 					X0RTTQ==
@@ -47,7 +47,7 @@
 					<key>Comment</key>
 					<string>change _OSI to XOSI, pair with SSDT-XOSI.aml</string>
 					<key>Disabled</key>
-					<false/>
+					<true/>
 					<key>Find</key>
 					<data>
 					X09TSQ==
@@ -61,7 +61,7 @@
 					<key>Comment</key>
 					<string>change GFX0 to IGPU, optionally pair with SSDT-IGPU.aml</string>
 					<key>Disabled</key>
-					<false/>
+					<true/>
 					<key>Find</key>
 					<data>
 					R0ZYMA==
@@ -75,7 +75,7 @@
 					<key>Comment</key>
 					<string>change HDAS to HDEF, optionally pair with SSDT-HDEF.aml</string>
 					<key>Disabled</key>
-					<false/>
+					<true/>
 					<key>Find</key>
 					<data>
 					SERBUw==
@@ -89,7 +89,7 @@
 					<key>Comment</key>
 					<string>change HECI to IMEI, optionally pair with SSDT-IMEI.aml</string>
 					<key>Disabled</key>
-					<false/>
+					<true/>
 					<key>Find</key>
 					<data>
 					SEVDSQ==
@@ -103,7 +103,7 @@
 					<key>Comment</key>
 					<string>change SAT0 to SATA, optionally pair with SSDT-SATA.aml</string>
 					<key>Disabled</key>
-					<false/>
+					<true/>
 					<key>Find</key>
 					<data>
 					U0FUMA==
@@ -117,7 +117,7 @@
 					<key>Comment</key>
 					<string>change Method(_PTS,1,N) to ZPTS, pair with SSDT-PTSWAK.aml</string>
 					<key>Disabled</key>
-					<false/>
+					<true/>
 					<key>Find</key>
 					<data>
 					X1BUUwE=
@@ -131,7 +131,7 @@
 					<key>Comment</key>
 					<string>change Method(_WAK,1,S) to ZWAK, pair with SSDT-PTSWAK.aml</string>
 					<key>Disabled</key>
-					<false/>
+					<true/>
 					<key>Find</key>
 					<data>
 					X1dBSwk=
@@ -145,7 +145,7 @@
 					<key>Comment</key>
 					<string>change Method(GPRW,2,N) to XPRW, pair with SSDT-GPRW.aml</string>
 					<key>Disabled</key>
-					<false/>
+					<true/>
 					<key>Find</key>
 					<data>
 					R1BSVwI=
@@ -185,7 +185,7 @@
 		<key>SSDT</key>
 		<dict>
 			<key>DropOem</key>
-			<false/>
+			<true/>
 			<key>Generate</key>
 			<dict>
 				<key>PluginType</key>
@@ -200,7 +200,7 @@
 		<key>#DefaultVolume</key>
 		<string>LastBootedVolume</string>
 		<key>Arguments</key>
-		<string>-igfxdump nv_disable=1 dart=0 kext-dev-mode=1 -wegdbg -liludbgall</string>
+		<string>-liludbgall nv_disable=1 dart=0 kext-dev-mode=1 -wegdbg -igfxdump</string>
 		<key>NeverHibernate</key>
 		<true/>
 		<key>Secure</key>
@@ -271,7 +271,7 @@
 			<dict>
 				<key>AAPL,ig-platform-id</key>
 				<data>
-				AADhkQ==
+				AAAeGQ==
 				</data>
 				<key>framebuffer-fbmem</key>
 				<data>
@@ -601,7 +601,7 @@
 				<key>Comment</key>
 				<string>Disable minStolenSize less or equal fStolenMemorySize assertion, 10.14 Credits (Sniki)</string>
 				<key>Disabled</key>
-				<false/>
+				<true/>
 				<key>Find</key>
 				<data>
 				dkBI/wVh6Qc=
