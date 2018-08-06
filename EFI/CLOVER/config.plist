@@ -657,7 +657,7 @@
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>C02733207QXF9GYAD</string>
+		<string>C02740310CDF503UE</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
@@ -723,7 +723,9 @@
 		<key>ProductName</key>
 		<string>MacBook9,1</string>
 		<key>SerialNumber</key>
-		<string>C02V729LHDNK</string>
+		<string>C02VH1G8HDNK</string>
+		<key>SmUUID</key>
+		<string>066CAD7B-F369-4253-B413-31EB8896B1B9</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
