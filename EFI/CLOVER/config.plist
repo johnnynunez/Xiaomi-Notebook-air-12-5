@@ -318,6 +318,8 @@
 		<dict>
 			<key>Inject</key>
 			<integer>3</integer>
+			<key>ResetHDA</key>
+			<true/>
 		</dict>
 		<key>Properties</key>
 		<dict>
