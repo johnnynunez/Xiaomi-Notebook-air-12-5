@@ -73,34 +73,6 @@
 				</dict>
 				<dict>
 					<key>Comment</key>
-					<string>Rename _Q1D</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>
-					X1ExRA==
-					</data>
-					<key>Replace</key>
-					<data>
-					X1ExTA==
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>Rename _Q1C</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>
-					X1ExQw==
-					</data>
-					<key>Replace</key>
-					<data>
-					X1ExSA==
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
 					<string>change _DSM to XDSM</string>
 					<key>Disabled</key>
 					<false/>
@@ -223,6 +195,20 @@
 					<key>Replace</key>
 					<data>
 					WFBSVwI=
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>change LGPA to XGPA</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					TEdQQQk=
+					</data>
+					<key>Replace</key>
+					<data>
+					WEdQQQk=
 					</data>
 				</dict>
 			</array>
