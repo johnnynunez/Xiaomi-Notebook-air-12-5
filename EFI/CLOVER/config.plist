@@ -61,7 +61,7 @@
 					<key>Comment</key>
 					<string>Rename TPD0._CRS to XCRS</string>
 					<key>Disabled</key>
-					<true/>
+					<false/>
 					<key>Find</key>
 					<data>
 					Q1JTAKAO
