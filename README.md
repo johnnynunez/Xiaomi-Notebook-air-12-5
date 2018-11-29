@@ -15,7 +15,6 @@ Built-in mic <br />
 3. What's Not Working <br />
 Card reader <br />
 Wifi Intel <br />
-Multitouch <br />
 
 ## Credits
 
