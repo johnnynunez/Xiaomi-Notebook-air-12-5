@@ -217,33 +217,7 @@
 		<array>
 			<dict>
 				<key>Signature</key>
-				<string>DBG2</string>
-			</dict>
-			<dict>
-				<key>Signature</key>
-				<string>DBGP</string>
-			</dict>
-			<dict>
-				<key>Signature</key>
 				<string>DMAR</string>
-			</dict>
-			<dict>
-				<key>Signature</key>
-				<string>MSDM</string>
-			</dict>
-			<dict>
-				<key>Length</key>
-				<integer>1219</integer>
-				<key>Signature</key>
-				<string>SSDT</string>
-			</dict>
-			<dict>
-				<key>Signature</key>
-				<string>TPM2</string>
-			</dict>
-			<dict>
-				<key>Signature</key>
-				<string>WSMT</string>
 			</dict>
 		</array>
 		<key>FixHeaders</key>
@@ -267,8 +241,12 @@
 		<string>LastBootedVolume</string>
 		<key>Arguments</key>
 		<string>npci=0x2000 igfxrst=1 dart=0</string>
+		<key>DefaultVolume</key>
+		<string>LastBootedVolume</string>
 		<key>HibernationFixup</key>
 		<true/>
+		<key>Legacy</key>
+		<string>PBR</string>
 		<key>NoEarlyProgress</key>
 		<true/>
 		<key>RtcHibernateAware</key>
@@ -446,7 +424,7 @@
 			<key>FixOwnership</key>
 			<true/>
 			<key>Inject</key>
-			<true/>
+			<false/>
 		</dict>
 	</dict>
 	<key>DisableDrivers</key>
@@ -519,15 +497,11 @@
 	<key>KernelAndKextPatches</key>
 	<dict>
 		<key>AppleIntelCPUPM</key>
-		<true/>
+		<false/>
 		<key>AppleRTC</key>
 		<false/>
 		<key>DellSMBIOSPatch</key>
 		<false/>
-		<key>ForceKextsToLoad</key>
-		<array>
-			<string>\System\Library\Extensions\IONetworkingFamily.kext</string>
-		</array>
 		<key>KernelLapic</key>
 		<false/>
 		<key>KernelPm</key>
@@ -669,6 +643,8 @@
 		<string>0x28</string>
 		<key>CsrActiveConfig</key>
 		<string>0x67</string>
+		<key>ROM</key>
+		<string>UseMacAddr0</string>
 	</dict>
 	<key>SMBIOS</key>
 	<dict>
