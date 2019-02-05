@@ -1,4 +1,7 @@
-# EFI_XIAOMI_NOTEBOOK_AIR_SKYLAKE
+# I'm a Student Engineering, life and my university career is expensive and work is hard. My repositories are free, please, reward me. Thank you
+# [Reward me](paypal.me/johnnync13)<br />
+
+# Xiaomi Mi Notebook air 1Gen 12'5
 
 CPU: M3-6Y30 <br />
 
