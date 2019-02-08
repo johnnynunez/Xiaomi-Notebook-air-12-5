@@ -21,7 +21,7 @@
 				<key>FixADP1</key>
 				<true/>
 				<key>FixHDA</key>
-				<true/>
+				<false/>
 				<key>FixHPET</key>
 				<false/>
 				<key>FixTMR</key>
@@ -29,20 +29,6 @@
 			</dict>
 			<key>Patches</key>
 			<array>
-				<dict>
-					<key>Comment</key>
-					<string>change MATH to XATH</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>
-					TUFUSA==
-					</data>
-					<key>Replace</key>
-					<data>
-					WEFUSA==
-					</data>
-				</dict>
 				<dict>
 					<key>Comment</key>
 					<string>change PCI0.GPI0._STA to PCI0.GPI0.XSTA</string>
@@ -211,6 +197,20 @@
 					WEdQQQk=
 					</data>
 				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>change RTC to XRTC</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					UlRDXw==
+					</data>
+					<key>Replace</key>
+					<data>
+					WFJUQw==
+					</data>
+				</dict>
 			</array>
 		</dict>
 		<key>DropTables</key>
@@ -240,7 +240,7 @@
 		<key>#DefaultVolume</key>
 		<string>LastBootedVolume</string>
 		<key>Arguments</key>
-		<string>npci=0x2000 igfxrst=1 dart=0</string>
+		<string>igfxrst=1 npci=0x2000</string>
 		<key>DefaultVolume</key>
 		<string>LastBootedVolume</string>
 		<key>HibernationFixup</key>
@@ -265,7 +265,7 @@
 			<key>Inject</key>
 			<string>No</string>
 			<key>ResetHDA</key>
-			<true/>
+			<false/>
 		</dict>
 		<key>Properties</key>
 		<dict>
@@ -420,7 +420,7 @@
 		<key>USB</key>
 		<dict>
 			<key>AddClockID</key>
-			<true/>
+			<false/>
 			<key>FixOwnership</key>
 			<true/>
 			<key>Inject</key>
