@@ -240,7 +240,7 @@
 		<key>#DefaultVolume</key>
 		<string>LastBootedVolume</string>
 		<key>Arguments</key>
-		<string>igfxrst=1 npci=0x2000</string>
+		<string>gfxrst=1 npci=0x2000</string>
 		<key>DefaultVolume</key>
 		<string>LastBootedVolume</string>
 		<key>HibernationFixup</key>
