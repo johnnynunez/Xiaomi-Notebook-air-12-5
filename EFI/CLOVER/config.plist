@@ -37,9 +37,13 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>X1NUQQCgCZNT</data>
+					<data>
+					X1NUQQCgCZNT
+					</data>
 					<key>Replace</key>
-					<data>WFNUQQCgCZNT</data>
+					<data>
+					WFNUQQCgCZNT
+					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -47,9 +51,13 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>Q1JTAKAO</data>
+					<data>
+					Q1JTAKAO
+					</data>
 					<key>Replace</key>
-					<data>WENSU6AO</data>
+					<data>
+					WENSU6AO
+					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -57,9 +65,13 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>X0RTTQ==</data>
+					<data>
+					X0RTTQ==
+					</data>
 					<key>Replace</key>
-					<data>WERTTQ==</data>
+					<data>
+					WERTTQ==
+					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -67,9 +79,13 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>X09TSQ==</data>
+					<data>
+					X09TSQ==
+					</data>
 					<key>Replace</key>
-					<data>WE9TSQ==</data>
+					<data>
+					WE9TSQ==
+					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -77,9 +93,13 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>R0ZYMA==</data>
+					<data>
+					R0ZYMA==
+					</data>
 					<key>Replace</key>
-					<data>SUdQVQ==</data>
+					<data>
+					SUdQVQ==
+					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -87,9 +107,13 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>SERBUw==</data>
+					<data>
+					SERBUw==
+					</data>
 					<key>Replace</key>
-					<data>SERFRg==</data>
+					<data>
+					SERFRg==
+					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -97,9 +121,13 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>SEVDSQ==</data>
+					<data>
+					SEVDSQ==
+					</data>
 					<key>Replace</key>
-					<data>SU1FSQ==</data>
+					<data>
+					SU1FSQ==
+					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -107,9 +135,13 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>U0FUMA==</data>
+					<data>
+					U0FUMA==
+					</data>
 					<key>Replace</key>
-					<data>U0FUQQ==</data>
+					<data>
+					U0FUQQ==
+					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -117,9 +149,13 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>X1BUUwE=</data>
+					<data>
+					X1BUUwE=
+					</data>
 					<key>Replace</key>
-					<data>WlBUUwE=</data>
+					<data>
+					WlBUUwE=
+					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -127,9 +163,13 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>X1dBSwk=</data>
+					<data>
+					X1dBSwk=
+					</data>
 					<key>Replace</key>
-					<data>WldBSwk=</data>
+					<data>
+					WldBSwk=
+					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -137,9 +177,13 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>R1BSVwI=</data>
+					<data>
+					R1BSVwI=
+					</data>
 					<key>Replace</key>
-					<data>WFBSVwI=</data>
+					<data>
+					WFBSVwI=
+					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -147,9 +191,13 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>TEdQQQk=</data>
+					<data>
+					TEdQQQk=
+					</data>
 					<key>Replace</key>
-					<data>WEdQQQk=</data>
+					<data>
+					WEdQQQk=
+					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -157,9 +205,13 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>UlRDXw==</data>
+					<data>
+					UlRDXw==
+					</data>
 					<key>Replace</key>
-					<data>WFJUQw==</data>
+					<data>
+					WFJUQw==
+					</data>
 				</dict>
 			</array>
 		</dict>
@@ -278,22 +330,30 @@
 			<key>PciRoot(0x0)/Pci(0x1c,0x0)</key>
 			<dict>
 				<key>reg-ltrovr</key>
-				<data>AAQAAAAAAAA=</data>
+				<data>
+				AAQAAAAAAAA=
+				</data>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x1c,0x4)</key>
 			<dict>
 				<key>reg-ltrovr</key>
-				<data>AAQAAAAAAAA=</data>
+				<data>
+				AAQAAAAAAAA=
+				</data>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x1c,0x7)</key>
 			<dict>
 				<key>reg-ltrovr</key>
-				<data>AAQAAAAAAAA=</data>
+				<data>
+				AAQAAAAAAAA=
+				</data>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x1c,0x8)</key>
 			<dict>
 				<key>reg-ltrovr</key>
-				<data>AAQAAAAAAAA=</data>
+				<data>
+				AAQAAAAAAAA=
+				</data>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x1f,0x0)</key>
 			<dict>
@@ -333,20 +393,60 @@
 				<key>model</key>
 				<string>Sunrise Point-LP SMBus</string>
 				<key>name</key>
-				<data>AAAIBp0j</data>
+				<data>
+				AAAIBp0j
+				</data>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
 				<key>AAPL,ig-platform-id</key>
-				<data>AAAeGQ==</data>
+				<data>
+				AAAeGQ==
+				</data>
 				<key>device-id</key>
-				<data>HhkAAA==</data>
+				<data>
+				HhkAAA==
+				</data>
+				<key>disable-external-gpu</key>
+				<data>
+				AQAAAA==
+				</data>
+				<key>enable-hdmi20</key>
+				<data>
+				AQAAAA==
+				</data>
+				<key>framebuffer-con1-enable</key>
+				<data>
+				AQAAAA==
+				</data>
+				<key>framebuffer-con1-type</key>
+				<data>
+				AAgAAA==
+				</data>
+				<key>framebuffer-con2-enable</key>
+				<data>
+				AQAAAA==
+				</data>
+				<key>framebuffer-con2-type</key>
+				<data>
+				AAgAAA==
+				</data>
 				<key>framebuffer-fbmem</key>
-				<data>AACQAA==</data>
+				<data>
+				AACQAA==
+				</data>
 				<key>framebuffer-patch-enable</key>
-				<data>AQAAAA==</data>
+				<data>
+				AQAAAA==
+				</data>
 				<key>framebuffer-stolenmem</key>
-				<data>AAAwAQ==</data>
+				<data>
+				AAAwAQ==
+				</data>
+				<key>framebuffer-unifiedmem</key>
+				<data>
+				AAAAgA==
+				</data>
 			</dict>
 		</dict>
 		<key>SetIntelBacklight</key>
@@ -459,9 +559,13 @@
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
-				<data>ILniAAAADzA=</data>
+				<data>
+				ILniAAAADzA=
+				</data>
 				<key>Replace</key>
-				<data>ILniAAAAkJA=</data>
+				<data>
+				ILniAAAAkJA=
+				</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -469,11 +573,15 @@
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
-				<data>igKEwHRE</data>
+				<data>
+				igKEwHRE
+				</data>
 				<key>MatchOS</key>
 				<string>10.13.x</string>
 				<key>Replace</key>
-				<data>igKEwOtE</data>
+				<data>
+				igKEwOtE
+				</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -481,11 +589,15 @@
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
-				<data>igKEwHRC</data>
+				<data>
+				igKEwHRC
+				</data>
 				<key>MatchOS</key>
 				<string>10.14.x</string>
 				<key>Replace</key>
-				<data>igKEwOtC</data>
+				<data>
+				igKEwOtC
+				</data>
 			</dict>
 		</array>
 		<key>KextsToPatch</key>
@@ -493,26 +605,38 @@
 			<dict>
 				<key>Comment</key>
 				<string>Prevent Apple I2C kexts from attaching to I2C controllers, credit CoolStar</string>
-				<key>Name</key>
-				<string>com.apple.driver.AppleIntelLpssI2C</string>
+				<key>Disabled</key>
+				<false/>
 				<key>Find</key>
-				<data>SU9LaXQ=</data>
-				<key>Replace</key>
-				<data>SU9LaXM=</data>
+				<data>
+				SU9LaXQ=
+				</data>
 				<key>InfoPlistPatch</key>
 				<true/>
+				<key>Name</key>
+				<string>com.apple.driver.AppleIntelLpssI2C</string>
+				<key>Replace</key>
+				<data>
+				SU9LaXM=
+				</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
 				<string>Prevent Apple I2C kexts from attaching to I2C controllers, credit CoolStar</string>
-				<key>Name</key>
-				<string>com.apple.driver.AppleIntelLpssI2CController</string>
+				<key>Disabled</key>
+				<false/>
 				<key>Find</key>
-				<data>SU9LaXQ=</data>
-				<key>Replace</key>
-				<data>SU9LaXM=</data>
+				<data>
+				SU9LaXQ=
+				</data>
 				<key>InfoPlistPatch</key>
 				<true/>
+				<key>Name</key>
+				<string>com.apple.driver.AppleIntelLpssI2CController</string>
+				<key>Replace</key>
+				<data>
+				SU9LaXM=
+				</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -520,7 +644,9 @@
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
-				<data>RXh0ZXJuYWw=</data>
+				<data>
+				RXh0ZXJuYWw=
+				</data>
 				<key>InfoPlistPatch</key>
 				<false/>
 				<key>MatchOS</key>
@@ -528,7 +654,9 @@
 				<key>Name</key>
 				<string>com.apple.driver.AppleAHCIPort</string>
 				<key>Replace</key>
-				<data>SW50ZXJuYWw=</data>
+				<data>
+				SW50ZXJuYWw=
+				</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -536,7 +664,9 @@
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
-				<data>wegQD7bA</data>
+				<data>
+				wegQD7bA
+				</data>
 				<key>InfoPlistPatch</key>
 				<false/>
 				<key>MatchOS</key>
@@ -544,7 +674,9 @@
 				<key>Name</key>
 				<string>com.apple.driver.AppleAPIC</string>
 				<key>Replace</key>
-				<data>vhcAAACQ</data>
+				<data>
+				vhcAAACQ
+				</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -552,13 +684,17 @@
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
-				<data>AEFQUExFIFNTRAA=</data>
+				<data>
+				AEFQUExFIFNTRAA=
+				</data>
 				<key>InfoPlistPatch</key>
 				<false/>
 				<key>Name</key>
 				<string>com.apple.iokit.IOAHCIBlockStorage</string>
 				<key>Replace</key>
-				<data>AAAAAAAAAAAAAAA=</data>
+				<data>
+				AAAAAAAAAAAAAAA=
+				</data>
 			</dict>
 		</array>
 	</dict>
@@ -574,17 +710,15 @@
 	<key>SMBIOS</key>
 	<dict>
 		<key>BiosReleaseDate</key>
-		<string>09/17/2018</string>
+		<string>12/19/2018</string>
 		<key>BiosVendor</key>
 		<string>Apple Inc.</string>
 		<key>BiosVersion</key>
-		<string>MB91.88Z.F000.B00.1809171414</string>
+		<string>MB91.88Z.F000.B00.1812191240</string>
 		<key>Board-ID</key>
 		<string>Mac-9AE82516C7C6B903</string>
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
-		<key>BoardSerialNumber</key>
-		<string>C02602501GUFV481M</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
@@ -596,7 +730,7 @@
 		<key>ChassisType</key>
 		<string>0x09</string>
 		<key>EfiVersion</key>
-		<string>175.0.0.0.0</string>
+		<string>176.0.0.0.0</string>
 		<key>Family</key>
 		<string>MacBook</string>
 		<key>FirmwareFeatures</key>
@@ -651,10 +785,6 @@
 		<string>0x1A</string>
 		<key>ProductName</key>
 		<string>MacBook9,1</string>
-		<key>SerialNumber</key>
-		<string>C02R3GYNHDNK</string>
-		<key>SmUUID</key>
-		<string>4D7C8CC6-14FC-4871-A4F4-4F6A90E40E8F</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
