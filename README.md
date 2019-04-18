@@ -9,15 +9,14 @@ CPU: M3-6Y30 <br />
 Native power management <br />
 Intel GPU <br />
 Audio (AppleALC) <br />
-TrackPad <br />
-Bluetooth <br />
+TrackPad like magic trackpad <br />
 HDMI video and audio <br />
 USB 3.0 <br />
 Built-in camera <br />
 Built-in mic <br />
 3. What's Not Working <br />
-Card reader <br />
 Wifi Intel <br />
+Bluetooth <br />
 
 ## Credits
 
