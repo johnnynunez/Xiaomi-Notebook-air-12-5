@@ -26,6 +26,8 @@
 				<false/>
 				<key>FixHPET</key>
 				<false/>
+				<key>FixRTC</key>
+				<true/>
 				<key>FixTMR</key>
 				<true/>
 			</dict>
@@ -199,21 +201,9 @@
 					WEdQQQk=
 					</data>
 				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>change RTC to XRTC</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>
-					UlRDXw==
-					</data>
-					<key>Replace</key>
-					<data>
-					WFJUQw==
-					</data>
-				</dict>
 			</array>
+			<key>Rtc8Allowed</key>
+			<true/>
 		</dict>
 		<key>DropTables</key>
 		<array>
@@ -460,7 +450,7 @@
 			<key>FixOwnership</key>
 			<true/>
 			<key>HighCurrent</key>
-			<true/>
+			<false/>
 			<key>Inject</key>
 			<false/>
 		</dict>
