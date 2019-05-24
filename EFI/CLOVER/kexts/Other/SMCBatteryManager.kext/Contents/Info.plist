@@ -5,7 +5,7 @@
 	<key>BuildMachineOSBuild</key>
 	<string>18E227</string>
 	<key>CFBundleDevelopmentRegion</key>
-	<string>English</string>
+	<string>en</string>
 	<key>CFBundleExecutable</key>
 	<string>SMCBatteryManager</string>
 	<key>CFBundleIdentifier</key>
