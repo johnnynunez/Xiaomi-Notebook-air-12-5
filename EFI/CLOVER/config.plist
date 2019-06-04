@@ -614,6 +614,20 @@
 				igKEwOtC
 				</data>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Clover kext injection Catalina</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				AIXAD4SHAAAASQ==
+				</data>
+				<key>Replace</key>
+				<data>
+				AIXAkJCQkJCQSQ==
+				</data>
+			</dict>
 		</array>
 		<key>KextsToPatch</key>
 		<array>
