@@ -15,7 +15,7 @@
 			<key>Fixes</key>
 			<dict>
 				<key>AddDTGP</key>
-				<true/>
+				<false/>
 				<key>AddMCHC</key>
 				<true/>
 				<key>AddPNLF</key>
@@ -232,7 +232,7 @@
 		<key>#DefaultVolume</key>
 		<string>LastBootedVolume</string>
 		<key>Arguments</key>
-		<string>gfxrst=1 npci=0x2000 darkwake=0</string>
+		<string>gfxrst=1 npci=0x2000 darkwake=0 dart=0</string>
 		<key>DefaultVolume</key>
 		<string>LastBootedVolume</string>
 		<key>HibernationFixup</key>
@@ -734,6 +734,8 @@
 		<string>Mac-9AE82516C7C6B903</string>
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
+		<key>BoardSerialNumber</key>
+		<string>C02713401GUFV481F</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
@@ -800,6 +802,10 @@
 		<string>0x1A</string>
 		<key>ProductName</key>
 		<string>MacBook9,1</string>
+		<key>SerialNumber</key>
+		<string>C02THDZRHDNK</string>
+		<key>SmUUID</key>
+		<string>DC25A124-CFBB-4F29-BA84-C184DB58A1DE</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
