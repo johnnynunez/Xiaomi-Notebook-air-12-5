@@ -35,16 +35,20 @@
 			<array>
 				<dict>
 					<key>Comment</key>
-					<string>change PCI0.GPI0._STA to PCI0.GPI0.XSTA</string>
+					<string>change GPI0._STA to GPI0.XSTA</string>
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
 					<data>
-					X1NUQQCgCZNT
+					X1NUQQ==
 					</data>
 					<key>Replace</key>
 					<data>
-					WFNUQQCgCZNT
+					WFNUQQ==
+					</data>
+					<key>TgtBridge</key>
+					<data>
+					R1BJMA==
 					</data>
 				</dict>
 				<dict>
@@ -54,11 +58,15 @@
 					<false/>
 					<key>Find</key>
 					<data>
-					Q1JTAKAO
+					X0NSUw==
 					</data>
 					<key>Replace</key>
 					<data>
-					WENSU6AO
+					WENSUw==
+					</data>
+					<key>TgtBridge</key>
+					<data>
+					VFBEMA==
 					</data>
 				</dict>
 				<dict>
@@ -199,6 +207,20 @@
 					<key>Replace</key>
 					<data>
 					WEdQQQk=
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>change USTP to XSTP</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					VVNUUAg=
+					</data>
+					<key>Replace</key>
+					<data>
+					WFNUUAg=
 					</data>
 				</dict>
 			</array>
