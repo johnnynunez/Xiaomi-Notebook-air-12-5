@@ -19,7 +19,7 @@
 				<key>AddMCHC</key>
 				<true/>
 				<key>AddPNLF</key>
-				<true/>
+				<false/>
 				<key>FixADP1</key>
 				<false/>
 				<key>FixHDA</key>
@@ -191,15 +191,15 @@
 		<key>#DefaultVolume</key>
 		<string>LastBootedVolume</string>
 		<key>Arguments</key>
-		<string>gfxrst=1 npci=0x2000 darkwake=0 dart=0</string>
+		<string>gfxrst=1 npci=0x2000 darkwake=0 dart=0 -cdfon shikigva=1</string>
 		<key>DefaultVolume</key>
 		<string>LastBootedVolume</string>
 		<key>HibernationFixup</key>
-		<false/>
+		<true/>
 		<key>Legacy</key>
 		<string>PBR</string>
 		<key>NeverHibernate</key>
-		<true/>
+		<false/>
 		<key>NoEarlyProgress</key>
 		<true/>
 		<key>RtcHibernateAware</key>
@@ -331,13 +331,9 @@
 			<key>PciRoot(0x0)/Pci(0x1f,0x3)</key>
 			<dict>
 				<key>AAPL,slot-name</key>
-				<string>PCI-Express</string>
+				<string>Internal</string>
 				<key>device_type</key>
 				<string>Audio device</string>
-				<key>hda-gfx</key>
-				<string>onboard-1</string>
-				<key>hda-idle-support</key>
-				<string>1</string>
 				<key>layout-id</key>
 				<data>
 				AwAAAA==
@@ -360,26 +356,14 @@
 				<data>
 				AAAeGQ==
 				</data>
+				<key>AAPL,slot-name</key>
+				<string>Internal</string>
 				<key>device-id</key>
 				<data>
 				HhkAAA==
 				</data>
-				<key>disable-external-gpu</key>
-				<data>
-				AQAAAA==
-				</data>
-				<key>dpcd-max-link-rate</key>
-				<data>
-				CgAAAA==
-				</data>
-				<key>enable-dpcd-max-link-rate-fix</key>
-				<data>
-				AQAAAA==
-				</data>
-				<key>enable-hdmi20</key>
-				<data>
-				AQAAAA==
-				</data>
+				<key>device_type</key>
+				<string>VGA compatible controller</string>
 				<key>framebuffer-con1-enable</key>
 				<data>
 				AQAAAA==
@@ -392,9 +376,9 @@
 				<data>
 				AQAAAA==
 				</data>
-				<key>framebuffer-con2-type</key>
+				<key>framebuffer-con2-index</key>
 				<data>
-				AAgAAA==
+				/////w==
 				</data>
 				<key>framebuffer-fbmem</key>
 				<data>
@@ -404,6 +388,10 @@
 				<data>
 				AQAAAA==
 				</data>
+				<key>framebuffer-portcount</key>
+				<data>
+				AgAAAA==
+				</data>
 				<key>framebuffer-stolenmem</key>
 				<data>
 				AAAwAQ==
@@ -412,8 +400,8 @@
 				<data>
 				AAAAgA==
 				</data>
-				<key>hda-gfx</key>
-				<string>onboard-1</string>
+				<key>model</key>
+				<string>HD Graphics 515</string>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x4,0x0)</key>
 			<dict>
@@ -426,9 +414,9 @@
 			</dict>
 		</dict>
 		<key>SetIntelBacklight</key>
-		<true/>
+		<false/>
 		<key>SetIntelMaxBacklight</key>
-		<true/>
+		<false/>
 		<key>USB</key>
 		<dict>
 			<key>FixOwnership</key>
@@ -698,11 +686,11 @@
 	<key>SMBIOS</key>
 	<dict>
 		<key>BiosReleaseDate</key>
-		<string>12/19/2018</string>
+		<string>05/25/2019</string>
 		<key>BiosVendor</key>
 		<string>Apple Inc.</string>
 		<key>BiosVersion</key>
-		<string>MB91.88Z.F000.B00.1812191240</string>
+		<string>MB91.88Z.F000.B00.1905251413</string>
 		<key>Board-ID</key>
 		<string>Mac-9AE82516C7C6B903</string>
 		<key>BoardManufacturer</key>
@@ -718,7 +706,7 @@
 		<key>ChassisType</key>
 		<string>0x09</string>
 		<key>EfiVersion</key>
-		<string>176.0.0.0.0</string>
+		<string>182.0.0.0.0</string>
 		<key>Family</key>
 		<string>MacBook</string>
 		<key>FirmwareFeatures</key>
