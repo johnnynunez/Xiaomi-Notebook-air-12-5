@@ -14,25 +14,25 @@
 			<false/>
 			<key>Fixes</key>
 			<dict>
-				<key>AddDTGP</key>
-				<false/>
 				<key>AddMCHC</key>
 				<true/>
-				<key>AddPNLF</key>
-				<false/>
-				<key>FixADP1</key>
-				<false/>
-				<key>FixHDA</key>
-				<false/>
-				<key>FixHPET</key>
-				<false/>
-				<key>FixRTC</key>
-				<false/>
-				<key>FixTMR</key>
-				<false/>
 			</dict>
 			<key>Patches</key>
 			<array>
+				<dict>
+					<key>Comment</key>
+					<string>change GFX0 to IGPU, optionally pair with SSDT-IGPU.aml</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					R0ZYMA==
+					</data>
+					<key>Replace</key>
+					<data>
+					SUdQVQ==
+					</data>
+				</dict>
 				<dict>
 					<key>Comment</key>
 					<string>change GPI0._STA to GPI0.XSTA</string>
@@ -168,8 +168,6 @@
 					</data>
 				</dict>
 			</array>
-			<key>Rtc8Allowed</key>
-			<false/>
 		</dict>
 		<key>FixHeaders</key>
 		<true/>
