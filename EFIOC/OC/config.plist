@@ -744,7 +744,7 @@
 			</dict>
 			<dict>
 				<key>BundlePath</key>
-				<string>VirtualSMC.kext/Contents/PlugIns/SMCBatteryManager.kext</string>
+				<string>SMCBatteryManager.kext</string>
 				<key>Comment</key>
 				<string>SMC Battery</string>
 				<key>Enabled</key>
@@ -758,7 +758,7 @@
 			</dict>
 			<dict>
 				<key>BundlePath</key>
-				<string>VirtualSMC.kext/Contents/PlugIns/SMCProcessor.kext</string>
+				<string>SMCProcessor.kext</string>
 				<key>Comment</key>
 				<string>SMC Prosessor</string>
 				<key>Enabled</key>
@@ -1069,6 +1069,93 @@
 			<true/>
 			<key>SystemProductName</key>
 			<string>MacBook9,1</string>
+		</dict>
+		<key>SMBIOS</key>
+		<dict>
+			<key>BiosReleaseDate</key>
+			<string>05/25/2019</string>
+			<key>BiosVendor</key>
+			<string>Apple Inc.</string>
+			<key>BiosVersion</key>
+			<string>MB91.88Z.F000.B00.1905251413</string>
+			<key>Board-ID</key>
+			<string>Mac-9AE82516C7C6B903</string>
+			<key>BoardManufacturer</key>
+			<string>Apple Inc.</string>
+			<key>BoardSerialNumber</key>
+			<string>C02713401GUFV481F</string>
+			<key>BoardType</key>
+			<integer>10</integer>
+			<key>BoardVersion</key>
+			<string>1.0</string>
+			<key>ChassisAssetTag</key>
+			<string>MacBook-Aluminum</string>
+			<key>ChassisManufacturer</key>
+			<string>Apple Inc.</string>
+			<key>ChassisType</key>
+			<string>0x09</string>
+			<key>EfiVersion</key>
+			<string>182.0.0.0.0</string>
+			<key>Family</key>
+			<string>MacBook</string>
+			<key>FirmwareFeatures</key>
+			<string>0xFC0FE13F</string>
+			<key>FirmwareFeaturesMask</key>
+			<string>0xFF1FFF3F</string>
+			<key>LocationInChassis</key>
+			<string>Part Component</string>
+			<key>Manufacturer</key>
+			<string>Apple Inc.</string>
+			<key>Memory</key>
+			<dict>
+				<key>Modules</key>
+				<array>
+					<dict>
+						<key>Frequency</key>
+						<integer>1866</integer>
+						<key>Part</key>
+						<string>9876543210</string>
+						<key>Serial</key>
+						<string>9CCNNNBKTMLBR-NUD</string>
+						<key>Size</key>
+						<integer>2048</integer>
+						<key>Slot</key>
+						<integer>0</integer>
+						<key>Type</key>
+						<string>DDR3</string>
+						<key>Vendor</key>
+						<string>SK Hynix</string>
+					</dict>
+					<dict>
+						<key>Frequency</key>
+						<integer>1866</integer>
+						<key>Part</key>
+						<string>9876543210</string>
+						<key>Serial</key>
+						<string>9CCNNNBKTMLBR-NUD</string>
+						<key>Size</key>
+						<integer>2048</integer>
+						<key>Slot</key>
+						<integer>1</integer>
+						<key>Type</key>
+						<string>DDR3</string>
+						<key>Vendor</key>
+						<string>SK Hynix</string>
+					</dict>
+				</array>
+			</dict>
+			<key>Mobile</key>
+			<true/>
+			<key>PlatformFeature</key>
+			<string>0x1A</string>
+			<key>ProductName</key>
+			<string>MacBook9,1</string>
+			<key>SerialNumber</key>
+			<string>C02THDZRHDNK</string>
+			<key>SmUUID</key>
+			<string>DC25A124-CFBB-4F29-BA84-C184DB58A1DE</string>
+			<key>Version</key>
+			<string>1.0</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
