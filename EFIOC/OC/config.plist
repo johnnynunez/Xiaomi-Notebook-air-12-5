@@ -8,6 +8,22 @@
 		<array>
 			<dict>
 				<key>Comment</key>
+				<string>USB</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-USBX.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Fake Ambient Light Sensor</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-ALS0.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>Add DMAC device</string>
 				<key>Enabled</key>
 				<true/>
@@ -45,14 +61,6 @@
 				<true/>
 				<key>Path</key>
 				<string>SSDT-LGPA.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>Brightness key for GTX</string>
-				<key>Enabled</key>
-				<false/>
-				<key>Path</key>
-				<string>SSDT-LGPAGTX.aml</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -126,11 +134,45 @@
 				<key>Path</key>
 				<string>SSDT-SMBUS.aml</string>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>XOSI</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-XOSI.aml</string>
+			</dict>
 		</array>
 		<key>Block</key>
 		<array/>
 		<key>Patch</key>
 		<array>
+			<dict>
+				<key>Comment</key>
+				<string>Rename TPD0._CRS to XCRS</string>
+				<key>Count</key>
+				<integer>0</integer>
+				<key>Enabled</key>
+				<true/>
+				<key>Find</key>
+				<data>X0NSUw==</data>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Mask</key>
+				<data></data>
+				<key>OemTableId</key>
+				<data></data>
+				<key>Replace</key>
+				<data>WENSUw==</data>
+				<key>ReplaceMask</key>
+				<data></data>
+				<key>Skip</key>
+				<integer>0</integer>
+				<key>TableLength</key>
+				<integer>0</integer>
+				<key>TableSignature</key>
+				<data>VFBEMA==</data>
+			</dict>
 			<dict>
 				<key>Comment</key>
 				<string>change GPI0._STA to GPI0.XSTA</string>
@@ -161,7 +203,7 @@
 				<key>Comment</key>
 				<string>change USTP to XSTP</string>
 				<key>Count</key>
-				<integer>1</integer>
+				<integer>0</integer>
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
@@ -185,13 +227,13 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Rename TPD0._CRS to XCRS</string>
+				<string>change _OSI to XOSI, pair with SSDT-XOSI.aml</string>
 				<key>Count</key>
 				<integer>0</integer>
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>X0NSUw==</data>
+				<data>X09TSQ==</data>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
@@ -199,7 +241,7 @@
 				<key>OemTableId</key>
 				<data></data>
 				<key>Replace</key>
-				<data>WENSUw==</data>
+				<data>WE9TSQ==</data>
 				<key>ReplaceMask</key>
 				<data></data>
 				<key>Skip</key>
@@ -207,7 +249,7 @@
 				<key>TableLength</key>
 				<integer>0</integer>
 				<key>TableSignature</key>
-				<data>VFBEMA==</data>
+				<data></data>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -564,7 +606,7 @@
 				<key>BundlePath</key>
 				<string>Lilu.kext</string>
 				<key>Comment</key>
-				<string>Sound</string>
+				<string>Lilu</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
