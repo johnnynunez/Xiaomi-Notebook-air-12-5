@@ -16,23 +16,11 @@
 			<dict>
 				<key>AddMCHC</key>
 				<true/>
+				<key>AddPNLF</key>
+				<true/>
 			</dict>
 			<key>Patches</key>
 			<array>
-				<dict>
-					<key>Comment</key>
-					<string>change GFX0 to IGPU, optionally pair with SSDT-IGPU.aml</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>
-					R0ZYMA==
-					</data>
-					<key>Replace</key>
-					<data>
-					SUdQVQ==
-					</data>
-				</dict>
 				<dict>
 					<key>Comment</key>
 					<string>change GPI0._STA to GPI0.XSTA</string>
@@ -67,34 +55,6 @@
 					<key>TgtBridge</key>
 					<data>
 					VFBEMA==
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>change _OSI to XOSI, pair with SSDT-XOSI.aml</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>
-					X09TSQ==
-					</data>
-					<key>Replace</key>
-					<data>
-					WE9TSQ==
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>change SAT0 to SATA, optionally pair with SSDT-SATA.aml</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>
-					U0FUMA==
-					</data>
-					<key>Replace</key>
-					<data>
-					U0FUQQ==
 					</data>
 				</dict>
 				<dict>
@@ -141,20 +101,6 @@
 				</dict>
 				<dict>
 					<key>Comment</key>
-					<string>Rename HPET._STA to XSTA, pair with SSDT-HPET.aml</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>
-					X1NUQQCgCEg=
-					</data>
-					<key>Replace</key>
-					<data>
-					WFNUQQCgCEg=
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
 					<string>Rename MATH._STA and LDR2._STA to XSTA</string>
 					<key>Disabled</key>
 					<false/>
@@ -165,6 +111,20 @@
 					<key>Replace</key>
 					<data>
 					WFNUQQCgDZNQ
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>change _OSI to XOSI, pair with SSDT-XOSI.aml</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					X09TSQ==
+					</data>
+					<key>Replace</key>
+					<data>
+					WE9TSQ==
 					</data>
 				</dict>
 			</array>
@@ -189,7 +149,7 @@
 		<key>#DefaultVolume</key>
 		<string>LastBootedVolume</string>
 		<key>Arguments</key>
-		<string>gfxrst=1 npci=0x2000 darkwake=0 dart=0 -cdfon shikigva=1</string>
+		<string>gfxrst=1 npci=0x2000 darkwake=0 dart=0</string>
 		<key>DefaultVolume</key>
 		<string>LastBootedVolume</string>
 		<key>HibernationFixup</key>
@@ -221,7 +181,7 @@
 			<key>PciRoot(0x0)/Pci(0x0,0x0)</key>
 			<dict>
 				<key>AAPL,slot-name</key>
-				<string>Internal</string>
+				<string>Internal@0,0,0</string>
 				<key>device_type</key>
 				<string>Host bridge</string>
 				<key>model</key>
@@ -230,7 +190,7 @@
 			<key>PciRoot(0x0)/Pci(0x14,0x0)</key>
 			<dict>
 				<key>AAPL,slot-name</key>
-				<string>Internal</string>
+				<string>Internal@0,20,0</string>
 				<key>device_type</key>
 				<string>USB controller</string>
 				<key>model</key>
@@ -239,7 +199,7 @@
 			<key>PciRoot(0x0)/Pci(0x15,0x0)</key>
 			<dict>
 				<key>AAPL,slot-name</key>
-				<string>Internal</string>
+				<string>Internal@0,21,0</string>
 				<key>device_type</key>
 				<string>Signal processing controller</string>
 				<key>model</key>
@@ -248,7 +208,7 @@
 			<key>PciRoot(0x0)/Pci(0x15,0x1)</key>
 			<dict>
 				<key>AAPL,slot-name</key>
-				<string>Internal</string>
+				<string>Internal@0,21,1</string>
 				<key>device_type</key>
 				<string>Signal processing controller</string>
 				<key>model</key>
@@ -257,7 +217,7 @@
 			<key>PciRoot(0x0)/Pci(0x16,0x0)</key>
 			<dict>
 				<key>AAPL,slot-name</key>
-				<string>Internal</string>
+				<string>Internal@0,22,0</string>
 				<key>device_type</key>
 				<string>Communication controller</string>
 				<key>model</key>
@@ -266,7 +226,7 @@
 			<key>PciRoot(0x0)/Pci(0x17,0x0)</key>
 			<dict>
 				<key>AAPL,slot-name</key>
-				<string>Internal</string>
+				<string>Internal@0,23,0</string>
 				<key>device_type</key>
 				<string>SATA controller</string>
 				<key>model</key>
@@ -275,7 +235,7 @@
 			<key>PciRoot(0x0)/Pci(0x1c,0x0)</key>
 			<dict>
 				<key>AAPL,slot-name</key>
-				<string>Internal</string>
+				<string>Internal@0,28,0</string>
 				<key>device_type</key>
 				<string>PCI bridge</string>
 				<key>model</key>
@@ -284,7 +244,7 @@
 			<key>PciRoot(0x0)/Pci(0x1c,0x0)/Pci(0x0,0x0)</key>
 			<dict>
 				<key>AAPL,slot-name</key>
-				<string>Internal@1,0,0</string>
+				<string>Internal@0,28,0/0,0</string>
 				<key>device_type</key>
 				<string>Network controller</string>
 				<key>model</key>
@@ -293,7 +253,7 @@
 			<key>PciRoot(0x0)/Pci(0x1d,0x0)</key>
 			<dict>
 				<key>AAPL,slot-name</key>
-				<string>Internal</string>
+				<string>Internal@0,29,0</string>
 				<key>device_type</key>
 				<string>PCI bridge</string>
 				<key>model</key>
@@ -302,7 +262,7 @@
 			<key>PciRoot(0x0)/Pci(0x1d,0x0)/Pci(0x0,0x0)</key>
 			<dict>
 				<key>AAPL,slot-name</key>
-				<string>Internal@2,0,0</string>
+				<string>Internal@0,29,0/0,0</string>
 				<key>device_type</key>
 				<string>Network controller</string>
 				<key>model</key>
@@ -311,7 +271,7 @@
 			<key>PciRoot(0x0)/Pci(0x1f,0x0)</key>
 			<dict>
 				<key>AAPL,slot-name</key>
-				<string>Internal</string>
+				<string>Internal@0,31,0</string>
 				<key>device_type</key>
 				<string>ISA bridge</string>
 				<key>model</key>
@@ -320,7 +280,7 @@
 			<key>PciRoot(0x0)/Pci(0x1f,0x2)</key>
 			<dict>
 				<key>AAPL,slot-name</key>
-				<string>Internal</string>
+				<string>Internal@0,31,2</string>
 				<key>device_type</key>
 				<string>Memory controller</string>
 				<key>model</key>
@@ -329,9 +289,15 @@
 			<key>PciRoot(0x0)/Pci(0x1f,0x3)</key>
 			<dict>
 				<key>AAPL,slot-name</key>
-				<string>Internal</string>
+				<string>Internal@0,31,3</string>
+				<key>device-id</key>
+				<data>
+				cKEAAA==
+				</data>
 				<key>device_type</key>
 				<string>Audio device</string>
+				<key>hda-gfx</key>
+				<string>onboard-1</string>
 				<key>layout-id</key>
 				<data>
 				AwAAAA==
@@ -342,7 +308,7 @@
 			<key>PciRoot(0x0)/Pci(0x1f,0x4)</key>
 			<dict>
 				<key>AAPL,slot-name</key>
-				<string>Internal</string>
+				<string>Internal@0,31,4</string>
 				<key>device_type</key>
 				<string>SMBus</string>
 				<key>model</key>
@@ -355,13 +321,17 @@
 				AAAeGQ==
 				</data>
 				<key>AAPL,slot-name</key>
-				<string>Internal</string>
+				<string>Internal@0,2,0</string>
 				<key>device-id</key>
 				<data>
 				HhkAAA==
 				</data>
 				<key>device_type</key>
 				<string>VGA compatible controller</string>
+				<key>enable-hdmi20</key>
+				<data>
+				AQAAAA==
+				</data>
 				<key>framebuffer-con1-enable</key>
 				<data>
 				AQAAAA==
@@ -377,6 +347,10 @@
 				<key>framebuffer-con2-index</key>
 				<data>
 				/////w==
+				</data>
+				<key>framebuffer-con2-type</key>
+				<data>
+				AAgAAA==
 				</data>
 				<key>framebuffer-fbmem</key>
 				<data>
@@ -398,13 +372,15 @@
 				<data>
 				AAAAgA==
 				</data>
+				<key>hda-gfx</key>
+				<string>onboard-1</string>
 				<key>model</key>
-				<string>HD Graphics 515</string>
+				<string>Intel HD Graphics 515</string>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x4,0x0)</key>
 			<dict>
 				<key>AAPL,slot-name</key>
-				<string>Internal</string>
+				<string>Internal@0,4,0</string>
 				<key>device_type</key>
 				<string>Signal processing controller</string>
 				<key>model</key>
@@ -412,9 +388,9 @@
 			</dict>
 		</dict>
 		<key>SetIntelBacklight</key>
-		<false/>
+		<true/>
 		<key>SetIntelMaxBacklight</key>
-		<false/>
+		<true/>
 		<key>USB</key>
 		<dict>
 			<key>FixOwnership</key>
@@ -559,20 +535,6 @@
 				igKEwOtC
 				</data>
 			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>Clover kext injection Catalina</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Find</key>
-				<data>
-				AIXAD4SHAAAASQ==
-				</data>
-				<key>Replace</key>
-				<data>
-				AIXAkJCQkJCQSQ==
-				</data>
-			</dict>
 		</array>
 		<key>KextsToPatch</key>
 		<array>
@@ -684,11 +646,11 @@
 	<key>SMBIOS</key>
 	<dict>
 		<key>BiosReleaseDate</key>
-		<string>05/25/2019</string>
+		<string>06/17/2019</string>
 		<key>BiosVendor</key>
 		<string>Apple Inc.</string>
 		<key>BiosVersion</key>
-		<string>MB91.88Z.F000.B00.1905251413</string>
+		<string>MB91.88Z.F000.B00.1906171551</string>
 		<key>Board-ID</key>
 		<string>Mac-9AE82516C7C6B903</string>
 		<key>BoardManufacturer</key>
@@ -704,7 +666,7 @@
 		<key>ChassisType</key>
 		<string>0x09</string>
 		<key>EfiVersion</key>
-		<string>182.0.0.0.0</string>
+		<string>184.0.0.0.0</string>
 		<key>Family</key>
 		<string>MacBook</string>
 		<key>FirmwareFeatures</key>
