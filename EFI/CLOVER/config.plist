@@ -175,7 +175,11 @@
 		<dict>
 			<key>Inject</key>
 			<string>No</string>
+			<key>ResetHDA</key>
+			<true/>
 		</dict>
+		<key>IntelMaxValue</key>
+		<string>0x056C</string>
 		<key>Properties</key>
 		<dict>
 			<key>PciRoot(0x0)/Pci(0x0,0x0)</key>
@@ -246,9 +250,9 @@
 				<key>AAPL,slot-name</key>
 				<string>Internal@0,28,0/0,0</string>
 				<key>device_type</key>
-				<string>Network controller</string>
+				<string>NVME Port</string>
 				<key>model</key>
-				<string>BCM43602 802.11ac Wireless LAN SoC</string>
+				<string>NVME Port // WIFI PORT</string>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x1d,0x0)</key>
 			<dict>
@@ -290,10 +294,6 @@
 			<dict>
 				<key>AAPL,slot-name</key>
 				<string>Internal@0,31,3</string>
-				<key>device-id</key>
-				<data>
-				cKEAAA==
-				</data>
 				<key>device_type</key>
 				<string>Audio device</string>
 				<key>hda-gfx</key>
@@ -303,7 +303,7 @@
 				AwAAAA==
 				</data>
 				<key>model</key>
-				<string>Sunrise Point-LP HD Audio</string>
+				<string>100 Series/C230 Series Chipset Family HD Audio Controller</string>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x1f,0x4)</key>
 			<dict>
@@ -322,6 +322,8 @@
 				</data>
 				<key>AAPL,slot-name</key>
 				<string>Internal@0,2,0</string>
+				<key>AAPL00,override-no-connect</key>
+				<string></string>
 				<key>device-id</key>
 				<data>
 				HhkAAA==
@@ -332,33 +334,41 @@
 				<data>
 				AQAAAA==
 				</data>
+				<key>framebuffer-camellia</key>
+				<data>
+				AAAAAA==
+				</data>
+				<key>framebuffer-con1-alldata</key>
+				<data>
+				AQUJAAAIAACHAQAA/wQKAAAEAACHAQAA
+				</data>
 				<key>framebuffer-con1-enable</key>
 				<data>
 				AQAAAA==
-				</data>
-				<key>framebuffer-con1-type</key>
-				<data>
-				AAgAAA==
-				</data>
-				<key>framebuffer-con2-enable</key>
-				<data>
-				AQAAAA==
-				</data>
-				<key>framebuffer-con2-index</key>
-				<data>
-				/////w==
-				</data>
-				<key>framebuffer-con2-type</key>
-				<data>
-				AAgAAA==
 				</data>
 				<key>framebuffer-fbmem</key>
 				<data>
 				AACQAA==
 				</data>
+				<key>framebuffer-flags</key>
+				<data>
+				DwUAAA==
+				</data>
+				<key>framebuffer-memorycount</key>
+				<data>
+				AwAAAA==
+				</data>
+				<key>framebuffer-mobile</key>
+				<data>
+				AQAAAA==
+				</data>
 				<key>framebuffer-patch-enable</key>
 				<data>
 				AQAAAA==
+				</data>
+				<key>framebuffer-pipecount</key>
+				<data>
+				AwAAAA==
 				</data>
 				<key>framebuffer-portcount</key>
 				<data>
