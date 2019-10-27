@@ -656,17 +656,15 @@
 	<key>SMBIOS</key>
 	<dict>
 		<key>BiosReleaseDate</key>
-		<string>06/17/2019</string>
+		<string>09/13/2019</string>
 		<key>BiosVendor</key>
 		<string>Apple Inc.</string>
 		<key>BiosVersion</key>
-		<string>MB91.88Z.F000.B00.1906171551</string>
+		<string>MB91.88Z.F000.B00.1909131902</string>
 		<key>Board-ID</key>
 		<string>Mac-9AE82516C7C6B903</string>
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
-		<key>BoardSerialNumber</key>
-		<string>C02744130J9FV481H</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
@@ -678,13 +676,13 @@
 		<key>ChassisType</key>
 		<string>0x09</string>
 		<key>EfiVersion</key>
-		<string>184.0.0.0.0</string>
+		<string>187.0.0.0.0</string>
 		<key>Family</key>
 		<string>MacBook</string>
 		<key>FirmwareFeatures</key>
-		<string>0xFC0FE13F</string>
+		<string>0xFC0FE17E</string>
 		<key>FirmwareFeaturesMask</key>
-		<string>0xFF1FFF3F</string>
+		<string>0xFF1FFF7F</string>
 		<key>LocationInChassis</key>
 		<string>Part Component</string>
 		<key>Manufacturer</key>
@@ -733,10 +731,6 @@
 		<string>0x1A</string>
 		<key>ProductName</key>
 		<string>MacBook9,1</string>
-		<key>SerialNumber</key>
-		<string>C02VM085HDNK</string>
-		<key>SmUUID</key>
-		<string>50AAB993-3749-494A-A7CD-728466FEF222</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
