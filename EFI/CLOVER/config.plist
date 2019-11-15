@@ -250,9 +250,9 @@
 				<key>AAPL,slot-name</key>
 				<string>Internal@0,28,0/0,0</string>
 				<key>device_type</key>
-				<string>NVME Port</string>
+				<string>Network controller</string>
 				<key>model</key>
-				<string>NVME Port // WIFI PORT</string>
+				<string>BCM43602 802.11ac Wireless LAN SoC</string>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x1d,0x0)</key>
 			<dict>
@@ -303,7 +303,7 @@
 				AwAAAA==
 				</data>
 				<key>model</key>
-				<string>100 Series/C230 Series Chipset Family HD Audio Controller</string>
+				<string>Sunrise Point-LP HD Audio</string>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x1f,0x4)</key>
 			<dict>
@@ -322,8 +322,6 @@
 				</data>
 				<key>AAPL,slot-name</key>
 				<string>Internal@0,2,0</string>
-				<key>AAPL00,override-no-connect</key>
-				<string></string>
 				<key>device-id</key>
 				<data>
 				HhkAAA==
@@ -334,41 +332,33 @@
 				<data>
 				AQAAAA==
 				</data>
-				<key>framebuffer-camellia</key>
-				<data>
-				AAAAAA==
-				</data>
-				<key>framebuffer-con1-alldata</key>
-				<data>
-				AQUJAAAIAACHAQAA/wQKAAAEAACHAQAA
-				</data>
 				<key>framebuffer-con1-enable</key>
 				<data>
 				AQAAAA==
+				</data>
+				<key>framebuffer-con1-type</key>
+				<data>
+				AAgAAA==
+				</data>
+				<key>framebuffer-con2-enable</key>
+				<data>
+				AQAAAA==
+				</data>
+				<key>framebuffer-con2-index</key>
+				<data>
+				/////w==
+				</data>
+				<key>framebuffer-con2-type</key>
+				<data>
+				AAgAAA==
 				</data>
 				<key>framebuffer-fbmem</key>
 				<data>
 				AACQAA==
 				</data>
-				<key>framebuffer-flags</key>
-				<data>
-				DwUAAA==
-				</data>
-				<key>framebuffer-memorycount</key>
-				<data>
-				AwAAAA==
-				</data>
-				<key>framebuffer-mobile</key>
-				<data>
-				AQAAAA==
-				</data>
 				<key>framebuffer-patch-enable</key>
 				<data>
 				AQAAAA==
-				</data>
-				<key>framebuffer-pipecount</key>
-				<data>
-				AwAAAA==
 				</data>
 				<key>framebuffer-portcount</key>
 				<data>
