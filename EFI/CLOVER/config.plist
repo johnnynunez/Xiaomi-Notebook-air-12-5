@@ -299,9 +299,7 @@
 				<key>hda-gfx</key>
 				<string>onboard-1</string>
 				<key>layout-id</key>
-				<data>
-				AwAAAA==
-				</data>
+				<integer>14</integer>
 				<key>model</key>
 				<string>Sunrise Point-LP HD Audio</string>
 			</dict>
@@ -646,11 +644,11 @@
 	<key>SMBIOS</key>
 	<dict>
 		<key>BiosReleaseDate</key>
-		<string>09/13/2019</string>
+		<string>10/30/2019</string>
 		<key>BiosVendor</key>
 		<string>Apple Inc.</string>
 		<key>BiosVersion</key>
-		<string>MB91.88Z.F000.B00.1909131902</string>
+		<string>MB91.88Z.F000.B00.1910301919</string>
 		<key>Board-ID</key>
 		<string>Mac-9AE82516C7C6B903</string>
 		<key>BoardManufacturer</key>
@@ -666,7 +664,7 @@
 		<key>ChassisType</key>
 		<string>0x09</string>
 		<key>EfiVersion</key>
-		<string>187.0.0.0.0</string>
+		<string>188.0.0.0.0</string>
 		<key>Family</key>
 		<string>MacBook</string>
 		<key>FirmwareFeatures</key>
