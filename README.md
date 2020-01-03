@@ -16,9 +16,10 @@ HDMI video and audio <br />
 USB 3.0 <br />
 Built-in camera <br />
 Built-in mic <br />
+Intel Bluetooth <br />
+
 3. What's Not Working <br />
 Wifi Intel <br />
-Bluetooth <br />
 
 ## Credits
 
