@@ -15,14 +15,82 @@
 			<key>Fixes</key>
 			<dict>
 				<key>AddMCHC</key>
-				<true/>
+				<false/>
 				<key>AddPNLF</key>
 				<true/>
 				<key>FixHDA</key>
-				<true/>
+				<false/>
 			</dict>
 			<key>Patches</key>
 			<array>
+				<dict>
+					<key>Comment</key>
+					<string>GLAN:_PRW to XPRW</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>X1BSVw==</data>
+					<key>Replace</key>
+					<data>WFBSVw==</data>
+					<key>TgtBridge</key>
+					<data>R0xBTg==</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>HDAS:_PRW to XPRW</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>X1BSVw==</data>
+					<key>Replace</key>
+					<data>WFBSVw==</data>
+					<key>TgtBridge</key>
+					<data>SERBUw==</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>XDCI:_PRW to XPRW</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>X1BSVw==</data>
+					<key>Replace</key>
+					<data>WFBSVw==</data>
+					<key>TgtBridge</key>
+					<data>WERDSQ==</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>XHC:_PRW to XPRW</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>X1BSVw==</data>
+					<key>Replace</key>
+					<data>WFBSVw==</data>
+					<key>TgtBridge</key>
+					<data>WEhDXw==</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>_WAK to ZWAK(1,S)</string>
+					<key>Disabled</key>
+					<true/>
+					<key>Find</key>
+					<data>X1dBSwk=</data>
+					<key>Replace</key>
+					<data>WldBSwk=</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>_PTS to ZPTS(1,N)</string>
+					<key>Disabled</key>
+					<true/>
+					<key>Find</key>
+					<data>X1BUUwE=</data>
+					<key>Replace</key>
+					<data>WlBUUwE=</data>
+				</dict>
 				<dict>
 					<key>Comment</key>
 					<string>change GPI0._STA to GPI0.XSTA</string>
@@ -127,7 +195,7 @@
 		<key>DefaultVolume</key>
 		<string>LastBootedVolume</string>
 		<key>HibernationFixup</key>
-		<true/>
+		<false/>
 		<key>Legacy</key>
 		<string>PBR</string>
 		<key>NeverHibernate</key>
@@ -135,7 +203,7 @@
 		<key>NoEarlyProgress</key>
 		<true/>
 		<key>RtcHibernateAware</key>
-		<false/>
+		<true/>
 		<key>Secure</key>
 		<false/>
 		<key>Timeout</key>
@@ -150,7 +218,7 @@
 			<key>Inject</key>
 			<string>No</string>
 			<key>ResetHDA</key>
-			<true/>
+			<false/>
 		</dict>
 		<key>IntelMaxValue</key>
 		<string>0x056C</string>
@@ -275,7 +343,7 @@
 				<key>hda-gfx</key>
 				<string>onboard-1</string>
 				<key>layout-id</key>
-				<data>AwAAAA==</data>
+				<integer>3</integer>
 				<key>model</key>
 				<string>Sunrise Point-LP HD Audio</string>
 			</dict>
@@ -412,7 +480,7 @@
 		<key>EDID</key>
 		<dict>
 			<key>Inject</key>
-			<true/>
+			<false/>
 		</dict>
 	</dict>
 	<key>KernelAndKextPatches</key>
