@@ -27,7 +27,7 @@
 					<key>Comment</key>
 					<string>GLAN:_PRW to XPRW</string>
 					<key>Disabled</key>
-					<true/>
+					<false/>
 					<key>Find</key>
 					<data>X1BSVw==</data>
 					<key>Replace</key>
@@ -39,7 +39,7 @@
 					<key>Comment</key>
 					<string>HDAS:_PRW to XPRW</string>
 					<key>Disabled</key>
-					<true/>
+					<false/>
 					<key>Find</key>
 					<data>X1BSVw==</data>
 					<key>Replace</key>
@@ -51,7 +51,7 @@
 					<key>Comment</key>
 					<string>XDCI:_PRW to XPRW</string>
 					<key>Disabled</key>
-					<true/>
+					<false/>
 					<key>Find</key>
 					<data>X1BSVw==</data>
 					<key>Replace</key>
@@ -63,7 +63,7 @@
 					<key>Comment</key>
 					<string>XHC:_PRW to XPRW</string>
 					<key>Disabled</key>
-					<true/>
+					<false/>
 					<key>Find</key>
 					<data>X1BSVw==</data>
 					<key>Replace</key>
