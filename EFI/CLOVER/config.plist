@@ -195,7 +195,7 @@
 		<key>DefaultVolume</key>
 		<string>LastBootedVolume</string>
 		<key>HibernationFixup</key>
-		<false/>
+		<true/>
 		<key>Legacy</key>
 		<string>PBR</string>
 		<key>NeverHibernate</key>
@@ -203,7 +203,7 @@
 		<key>NoEarlyProgress</key>
 		<true/>
 		<key>RtcHibernateAware</key>
-		<true/>
+		<false/>
 		<key>Secure</key>
 		<false/>
 		<key>Timeout</key>
