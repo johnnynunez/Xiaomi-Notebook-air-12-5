@@ -75,7 +75,7 @@
 					<key>Comment</key>
 					<string>_WAK to ZWAK(1,S)</string>
 					<key>Disabled</key>
-					<true/>
+					<false/>
 					<key>Find</key>
 					<data>X1dBSwk=</data>
 					<key>Replace</key>
@@ -85,7 +85,7 @@
 					<key>Comment</key>
 					<string>_PTS to ZPTS(1,N)</string>
 					<key>Disabled</key>
-					<true/>
+					<false/>
 					<key>Find</key>
 					<data>X1BUUwE=</data>
 					<key>Replace</key>
