@@ -75,7 +75,7 @@
 					<key>Comment</key>
 					<string>_WAK to ZWAK(1,S)</string>
 					<key>Disabled</key>
-					<false/>
+					<true/>
 					<key>Find</key>
 					<data>X1dBSwk=</data>
 					<key>Replace</key>
@@ -85,7 +85,7 @@
 					<key>Comment</key>
 					<string>_PTS to ZPTS(1,N)</string>
 					<key>Disabled</key>
-					<false/>
+					<true/>
 					<key>Find</key>
 					<data>X1BUUwE=</data>
 					<key>Replace</key>
@@ -180,7 +180,7 @@
 				<key>APSN</key>
 				<true/>
 				<key>PluginType</key>
-				<true/>
+				<false/>
 			</dict>
 			<key>NoOemTableId</key>
 			<false/>
@@ -636,8 +636,6 @@
 		<string>Mac-9AE82516C7C6B903</string>
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
-		<key>BoardSerialNumber</key>
-		<string>C02619130GUFV48JC</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
@@ -704,10 +702,6 @@
 		<string>0x1A</string>
 		<key>ProductName</key>
 		<string>MacBook9,1</string>
-		<key>SerialNumber</key>
-		<string>C02RPVZQHDNK</string>
-		<key>SmUUID</key>
-		<string>49801CDD-0A13-4BB3-9BDC-503AB87DFA33</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
