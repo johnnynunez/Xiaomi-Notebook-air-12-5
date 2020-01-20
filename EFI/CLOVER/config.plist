@@ -17,7 +17,7 @@
 				<key>AddMCHC</key>
 				<false/>
 				<key>AddPNLF</key>
-				<true/>
+				<false/>
 				<key>FixHDA</key>
 				<false/>
 			</dict>
@@ -27,7 +27,7 @@
 					<key>Comment</key>
 					<string>GLAN:_PRW to XPRW</string>
 					<key>Disabled</key>
-					<false/>
+					<true/>
 					<key>Find</key>
 					<data>X1BSVw==</data>
 					<key>Replace</key>
@@ -39,7 +39,7 @@
 					<key>Comment</key>
 					<string>HDAS:_PRW to XPRW</string>
 					<key>Disabled</key>
-					<false/>
+					<true/>
 					<key>Find</key>
 					<data>X1BSVw==</data>
 					<key>Replace</key>
@@ -51,7 +51,7 @@
 					<key>Comment</key>
 					<string>XDCI:_PRW to XPRW</string>
 					<key>Disabled</key>
-					<false/>
+					<true/>
 					<key>Find</key>
 					<data>X1BSVw==</data>
 					<key>Replace</key>
@@ -63,7 +63,7 @@
 					<key>Comment</key>
 					<string>XHC:_PRW to XPRW</string>
 					<key>Disabled</key>
-					<false/>
+					<true/>
 					<key>Find</key>
 					<data>X1BSVw==</data>
 					<key>Replace</key>
@@ -225,8 +225,6 @@
 			<key>ResetHDA</key>
 			<false/>
 		</dict>
-		<key>IntelMaxValue</key>
-		<string>0x056C</string>
 		<key>Properties</key>
 		<dict>
 			<key>PciRoot(0x0)/Pci(0x0,0x0)</key>
@@ -401,9 +399,9 @@
 			</dict>
 		</dict>
 		<key>SetIntelBacklight</key>
-		<true/>
+		<false/>
 		<key>SetIntelMaxBacklight</key>
-		<true/>
+		<false/>
 		<key>USB</key>
 		<dict>
 			<key>FixOwnership</key>
