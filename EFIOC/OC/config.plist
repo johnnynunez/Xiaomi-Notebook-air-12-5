@@ -34,7 +34,7 @@
 				<key>Comment</key>
 				<string>Enable GPIO interrupt mode</string>
 				<key>Enabled</key>
-				<false/>
+				<true/>
 				<key>Path</key>
 				<string>SSDT-GPI0.aml</string>
 			</dict>
@@ -64,67 +64,11 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Enable incompatible LPC</string>
-				<key>Enabled</key>
-				<false/>
-				<key>Path</key>
-				<string>SSDT-LPC.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
 				<string>Add MEM2 device</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
 				<string>SSDT-MEM2.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>Add PMCR device</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>SSDT-PMCR.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>Fake an ethernet card, pair with NullEthernet.kext</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>SSDT-RMNE.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>Enable trackpad interrupt mode</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>SSDT-TPD0.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>Add SMBUS DVL0</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>SSDT-SMBUS.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>USB</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>SSDT-USB.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>XOSI</string>
-				<key>Enabled</key>
-				<true/>
-				<key>Path</key>
-				<string>SSDT-XOSI.aml</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -136,11 +80,59 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+				<string>Fake an ethernet card, pair with NullEthernet.kext</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-RMNE.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>SLPB</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-SLPB.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Add SMBUS DVL0</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-SMBUS.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Enable trackpad interrupt mode</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-TPD0.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>USB</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-USB.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>Inject plugin-type=1</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
 				<string>SSDT-XCPM.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>XOSI</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-XOSI.aml</string>
 			</dict>
 		</array>
 		<key>Block</key>
@@ -335,7 +327,7 @@
 			<key>FadtEnableReset</key>
 			<false/>
 			<key>NormalizeHeaders</key>
-			<true/>
+			<false/>
 			<key>RebaseRegions</key>
 			<false/>
 			<key>ResetHwSig</key>
@@ -351,7 +343,7 @@
 		<key>Quirks</key>
 		<dict>
 			<key>AvoidRuntimeDefrag</key>
-			<false/>
+			<true/>
 			<key>DevirtualiseMmio</key>
 			<false/>
 			<key>DisableSingleUser</key>
@@ -361,9 +353,9 @@
 			<key>DiscardHibernateMap</key>
 			<false/>
 			<key>EnableSafeModeSlide</key>
-			<false/>
+			<true/>
 			<key>EnableWriteUnprotector</key>
-			<false/>
+			<true/>
 			<key>ForceExitBootServices</key>
 			<false/>
 			<key>ProtectCsmRegion</key>
@@ -371,8 +363,10 @@
 			<key>ProvideCustomSlide</key>
 			<false/>
 			<key>SetupVirtualMap</key>
-			<false/>
+			<true/>
 			<key>ShrinkMemoryMap</key>
+			<false/>
+			<key>SignalAppleOS</key>
 			<false/>
 		</dict>
 	</dict>
@@ -497,7 +491,7 @@
 				<key>layout-id</key>
 				<data>AwAAAA==</data>
 				<key>model</key>
-				<string>Sunrise Point-LP HD Audio</string>
+				<string>Intel Sunrise Point-LP HD Audio</string>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x1f,0x4)</key>
 			<dict>
@@ -648,12 +642,44 @@
 				<key>BundlePath</key>
 				<string>HibernationFixup.kext</string>
 				<key>Comment</key>
-				<string></string>
+				<string>RTC Lock</string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/HibernationFixup</string>
 				<key>MatchKernel</key>
+				<string></string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>BundlePath</key>
+				<string>IntelBluetoothFirmware.kext</string>
+				<key>Comment</key>
+				<string>Intel Bluetooth Firmware</string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/IntelBluetoothFirmware</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>BundlePath</key>
+				<string>IntelBluetoothInjector.kext</string>
+				<key>Comment</key>
+				<string>Injector Bluetooth</string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
 				<string></string>
 				<key>MaxKernel</key>
 				<string></string>
@@ -673,6 +699,22 @@
 				<string>Contents/MacOS/NullEthernet</string>
 				<key>MatchKernel</key>
 				<string></string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>BundlePath</key>
+				<string>NVMeFix.kext</string>
+				<key>Comment</key>
+				<string>Porwer Management NVME</string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/NVMeFix</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
@@ -774,7 +816,7 @@
 				<key>BundlePath</key>
 				<string>VoodooI2C.kext/Contents/PlugIns/VoodooGPIO.kext</string>
 				<key>Comment</key>
-				<string>Trackpad</string>
+				<string>GPIO</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -792,7 +834,7 @@
 				<key>BundlePath</key>
 				<string>VoodooI2C.kext/Contents/PlugIns/VoodooI2CServices.kext</string>
 				<key>Comment</key>
-				<string>Trackpad</string>
+				<string>I2CServices</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -810,7 +852,7 @@
 				<key>BundlePath</key>
 				<string>VoodooI2C.kext</string>
 				<key>Comment</key>
-				<string>Trackpad</string>
+				<string>I2C</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -846,7 +888,7 @@
 				<key>BundlePath</key>
 				<string>VoodooPS2Controller.kext</string>
 				<key>Comment</key>
-				<string>Keyboard</string>
+				<string>PS2Controller</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -903,7 +945,7 @@
 				<key>Comment</key>
 				<string>Prevent Apple I2C kexts from attaching to I2C controllers</string>
 				<key>Enabled</key>
-				<false/>
+				<true/>
 				<key>Identifier</key>
 				<string>com.apple.driver.AppleIntelLpssI2C</string>
 				<key>MatchKernel</key>
@@ -917,7 +959,7 @@
 				<key>Comment</key>
 				<string>Prevent Apple I2C kexts from attaching to I2C controllers</string>
 				<key>Enabled</key>
-				<false/>
+				<true/>
 				<key>Identifier</key>
 				<string>com.apple.driver.AppleIntelLpssI2CController</string>
 				<key>MatchKernel</key>
@@ -1013,23 +1055,27 @@
 		<key>Quirks</key>
 		<dict>
 			<key>AppleCpuPmCfgLock</key>
-			<true/>
+			<false/>
 			<key>AppleXcpmCfgLock</key>
-			<true/>
+			<false/>
 			<key>AppleXcpmExtraMsrs</key>
-			<true/>
+			<false/>
+			<key>AppleXcpmForceBoost</key>
+			<false/>
 			<key>CustomSMBIOSGuid</key>
 			<false/>
 			<key>DisableIoMapper</key>
 			<true/>
 			<key>ExternalDiskIcons</key>
+			<true/>
+			<key>IncreasePciBarSize</key>
 			<false/>
 			<key>LapicKernelPanic</key>
 			<false/>
 			<key>PanicNoKextDump</key>
 			<true/>
 			<key>PowerTimeoutKernelPanic</key>
-			<false/>
+			<true/>
 			<key>ThirdPartyDrives</key>
 			<false/>
 			<key>ThirdPartyTrim</key>
@@ -1051,9 +1097,9 @@
 			<key>ConsoleMode</key>
 			<string></string>
 			<key>HibernateMode</key>
-			<string>Auto</string>
+			<string>RTC</string>
 			<key>HideSelf</key>
-			<false/>
+			<true/>
 			<key>PollAppleHotKeys</key>
 			<false/>
 			<key>Resolution</key>
@@ -1061,7 +1107,7 @@
 			<key>ShowPicker</key>
 			<true/>
 			<key>Timeout</key>
-			<integer>4</integer>
+			<integer>5</integer>
 			<key>UsePicker</key>
 			<true/>
 		</dict>
@@ -1081,6 +1127,10 @@
 		<key>Security</key>
 		<dict>
 			<key>AllowNvramReset</key>
+			<true/>
+			<key>AllowSetDefault</key>
+			<true/>
+			<key>AuthRestart</key>
 			<false/>
 			<key>ExposeSensitiveData</key>
 			<integer>2</integer>
@@ -1113,6 +1163,11 @@
 	<dict>
 		<key>Add</key>
 		<dict>
+			<key>4D1EDE05-38C7-4A6A-9CC6-4BCCA8B38C14</key>
+			<dict>
+				<key>UIScale</key>
+				<data>Ag==</data>
+			</dict>
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
 			<dict>
 				<key>boot-args</key>
@@ -1131,8 +1186,12 @@
 		<dict/>
 		<key>LegacyEnable</key>
 		<false/>
+		<key>LegacyOverwrite</key>
+		<false/>
 		<key>LegacySchema</key>
 		<dict/>
+		<key>WriteFlash</key>
+		<false/>
 	</dict>
 	<key>PlatformInfo</key>
 	<dict>
@@ -1146,10 +1205,6 @@
 			<true/>
 			<key>SystemProductName</key>
 			<string>MacBook9,1</string>
-			<key>SystemSerialNumber</key>
-			<string>C02T59YXHDNK</string>
-			<key>SystemUUID</key>
-			<string>44564194-07A1-44C0-912B-BCA30CECF2C5</string>
 		</dict>
 		<key>SMBIOS</key>
 		<dict>
@@ -1175,8 +1230,6 @@
 			<string></string>
 			<key>BoardProduct</key>
 			<string>Mac-9AE82516C7C6B903</string>
-			<key>BoardSerialNumber</key>
-			<string>C02704301J9FV48UE</string>
 			<key>BoardType</key>
 			<integer>10</integer>
 			<key>BoardVersion</key>
@@ -1185,8 +1238,6 @@
 			<string>MacBook-Aluminum</string>
 			<key>ChassisManufacturer</key>
 			<string></string>
-			<key>ChassisSerialNumber</key>
-			<string>C02T59YXHDNK</string>
 			<key>ChassisType</key>
 			<integer>9</integer>
 			<key>ChassisVersion</key>
@@ -1263,10 +1314,6 @@
 			<string>MacBook9,1</string>
 			<key>SystemSKUNumber</key>
 			<string>Mac-9AE82516C7C6B903</string>
-			<key>SystemSerialNumber</key>
-			<string>C02T59YXHDNK</string>
-			<key>SystemUUID</key>
-			<string>44564194-07A1-44C0-912B-BCA30CECF2C5</string>
 			<key>SystemVersion</key>
 			<string>1.0</string>
 			<key>Version</key>
@@ -1279,7 +1326,7 @@
 		<key>UpdateSMBIOS</key>
 		<true/>
 		<key>UpdateSMBIOSMode</key>
-		<string>Auto</string>
+		<string>Create</string>
 	</dict>
 	<key>UEFI</key>
 	<dict>
@@ -1287,21 +1334,21 @@
 		<true/>
 		<key>Drivers</key>
 		<array>
-			<string>ApfsDriverLoader.efi</string>
-			<string>AptioMemoryFix.efi</string>
+			<string>ApfsDriverLoader-64.efi</string>
 			<string>HFSPlus.efi</string>
-			<string>VirtualSmc.efi</string>
+			<string>FwRuntimeServices.efi</string>
+			<string>AppleUsbKbDxe.efi</string>
 		</array>
 		<key>Input</key>
 		<dict>
 			<key>KeyForgetThreshold</key>
-			<integer>0</integer>
+			<integer>5</integer>
 			<key>KeyMergeThreshold</key>
-			<integer>0</integer>
+			<integer>2</integer>
 			<key>KeySupport</key>
-			<false/>
+			<true/>
 			<key>KeySupportMode</key>
-			<string></string>
+			<string>Auto</string>
 			<key>KeySwap</key>
 			<false/>
 			<key>PointerSupport</key>
@@ -1321,6 +1368,8 @@
 			<false/>
 			<key>AppleKeyMap</key>
 			<false/>
+			<key>AppleSmcIo</key>
+			<false/>
 			<key>AppleUserInterfaceTheme</key>
 			<false/>
 			<key>ConsoleControl</key>
@@ -1332,6 +1381,8 @@
 			<key>FirmwareVolume</key>
 			<false/>
 			<key>HashServices</key>
+			<false/>
+			<key>OSInfo</key>
 			<false/>
 			<key>UnicodeCollation</key>
 			<false/>
@@ -1349,7 +1400,7 @@
 			<key>IgnoreTextInGraphics</key>
 			<false/>
 			<key>ProvideConsoleGop</key>
-			<false/>
+			<true/>
 			<key>ReconnectOnResChange</key>
 			<false/>
 			<key>ReleaseUsbOwnership</key>
@@ -1361,7 +1412,7 @@
 			<key>RequestBootVarRouting</key>
 			<false/>
 			<key>SanitiseClearScreen</key>
-			<false/>
+			<true/>
 			<key>UnblockFsConnect</key>
 			<false/>
 		</dict>
