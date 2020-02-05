@@ -19,7 +19,7 @@ Built-in mic <br />
 Intel Bluetooth <br />
 Wifi Intel <br />
 
-3. What's Not Working <br />
+If your Intel Wifi not working. Be patient. Intel wifi kext really good is the [project](https://github.com/zxystd/AppleIntelWifiAdapter) of [zxystd](https://github.com/zxystd)
 
 ## Credits
 
