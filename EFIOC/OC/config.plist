@@ -674,7 +674,7 @@
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
-				<false/>
+				<true/>
 				<key>ExecutablePath</key>
 				<string></string>
 				<key>MaxKernel</key>
@@ -690,7 +690,7 @@
 				<key>Comment</key>
 				<string>RTC Lock</string>
 				<key>Enabled</key>
-				<false/>
+				<true/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/HibernationFixup</string>
 				<key>MaxKernel</key>
@@ -1232,6 +1232,8 @@
 		<true/>
 		<key>Generic</key>
 		<dict>
+			<key>AdviseWindows</key>
+			<true/>
 			<key>MLB</key>
 			<string>C02615300J9FV48JA</string>
 			<key>SpoofVendor</key>

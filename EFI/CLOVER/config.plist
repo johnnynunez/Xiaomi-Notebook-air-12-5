@@ -348,7 +348,7 @@
 				<key>layout-id</key>
 				<data>AwAAAA==</data>
 				<key>model</key>
-				<string>Sunrise Point-LP HD Audio</string>
+				<string>100 Series/C230 Series Chipset Family HD Audio Controller</string>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x1F,0x4)</key>
 			<dict>
