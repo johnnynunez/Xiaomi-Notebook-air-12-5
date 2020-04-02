@@ -1076,9 +1076,9 @@
 		<key>Quirks</key>
 		<dict>
 			<key>AppleCpuPmCfgLock</key>
-			<true/>
+			<false/>
 			<key>AppleXcpmCfgLock</key>
-			<true/>
+			<false/>
 			<key>AppleXcpmExtraMsrs</key>
 			<false/>
 			<key>AppleXcpmForceBoost</key>
@@ -1234,8 +1234,6 @@
 		<dict>
 			<key>AdviseWindows</key>
 			<true/>
-			<key>MLB</key>
-			<string>C02615300J9FV48JA</string>
 			<key>SpoofVendor</key>
 			<true/>
 			<key>SystemProductName</key>
@@ -1258,9 +1256,9 @@
 		<array>
 			<string>HfsPlus.efi</string>
 			<string>ApfsDriverLoader.efi</string>
-			<string>FwRuntimeServices.efi</string>
+			<string>OpenRuntime.efi</string>
 			<string>AudioDxe.efi</string>
-			<string>BootLiquor.efi</string>
+			<string>OpenCanopy.efi</string>
 		</array>
 		<key>Audio</key>
 		<dict>
