@@ -25,95 +25,13 @@
 			<array>
 				<dict>
 					<key>Comment</key>
-					<string>GLAN:_PRW to XPRW</string>
-					<key>Disabled</key>
-					<true/>
-					<key>Find</key>
-					<data>X1BSVw==</data>
-					<key>Replace</key>
-					<data>WFBSVw==</data>
-					<key>TgtBridge</key>
-					<data>R0xBTg==</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>HDAS:_PRW to XPRW</string>
-					<key>Disabled</key>
-					<true/>
-					<key>Find</key>
-					<data>X1BSVw==</data>
-					<key>Replace</key>
-					<data>WFBSVw==</data>
-					<key>TgtBridge</key>
-					<data>SERBUw==</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>XDCI:_PRW to XPRW</string>
-					<key>Disabled</key>
-					<true/>
-					<key>Find</key>
-					<data>X1BSVw==</data>
-					<key>Replace</key>
-					<data>WFBSVw==</data>
-					<key>TgtBridge</key>
-					<data>WERDSQ==</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>XHC:_PRW to XPRW</string>
-					<key>Disabled</key>
-					<true/>
-					<key>Find</key>
-					<data>X1BSVw==</data>
-					<key>Replace</key>
-					<data>WFBSVw==</data>
-					<key>TgtBridge</key>
-					<data>WEhDXw==</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>_WAK to ZWAK(1,S)</string>
-					<key>Disabled</key>
-					<true/>
-					<key>Find</key>
-					<data>X1dBSwk=</data>
-					<key>Replace</key>
-					<data>WldBSwk=</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>_PTS to ZPTS(1,N)</string>
-					<key>Disabled</key>
-					<true/>
-					<key>Find</key>
-					<data>X1BUUwE=</data>
-					<key>Replace</key>
-					<data>WlBUUwE=</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>change GPI0._STA to GPI0.XSTA</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>X1NUQQ==</data>
-					<key>Replace</key>
-					<data>WFNUQQ==</data>
-					<key>TgtBridge</key>
-					<data>R1BJMA==</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
 					<string>Rename TPD0._CRS to XCRS</string>
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>X0NSUw==</data>
+					<data>FDNfQ1JTAA==</data>
 					<key>Replace</key>
-					<data>WENSUw==</data>
-					<key>TgtBridge</key>
-					<data>VFBEMA==</data>
+					<data>FDNYQ1JTAA==</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -137,16 +55,6 @@
 				</dict>
 				<dict>
 					<key>Comment</key>
-					<string>change USTP to XSTP</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>VVNUUAg=</data>
-					<key>Replace</key>
-					<data>WFNUUAg=</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
 					<string>Rename MATH._STA and LDR2._STA to XSTA</string>
 					<key>Disabled</key>
 					<false/>
@@ -157,13 +65,13 @@
 				</dict>
 				<dict>
 					<key>Comment</key>
-					<string>change _OSI to XOSI, pair with SSDT-XOSI.aml</string>
+					<string>Rename TPD0._INI to XINI (Trackpad)</string>
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>X09TSQ==</data>
+					<data>FE4JX0lOSQA=</data>
 					<key>Replace</key>
-					<data>WE9TSQ==</data>
+					<data>FE4JWElOSQA=</data>
 				</dict>
 			</array>
 		</dict>
@@ -176,9 +84,9 @@
 			<key>Generate</key>
 			<dict>
 				<key>APLF</key>
-				<true/>
+				<false/>
 				<key>APSN</key>
-				<true/>
+				<false/>
 				<key>PluginType</key>
 				<false/>
 			</dict>
@@ -191,7 +99,7 @@
 		<key>#DefaultVolume</key>
 		<string>LastBootedVolume</string>
 		<key>Arguments</key>
-		<string>gfxrst=1 npci=0x2000 darkwake=0 dart=0</string>
+		<string>gfxrst=1 darkwake=0 dart=0</string>
 		<key>DefaultVolume</key>
 		<string>LastBootedVolume</string>
 		<key>HibernationFixup</key>
