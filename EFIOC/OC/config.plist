@@ -437,6 +437,8 @@
 				<string>Xeon E3-1200 v5/E3-1500 v5/6th Gen Core Processor Thermal Subsystem</string>
 			</dict>
 		</dict>
+		<key>Block</key>
+		<dict/>
 	</dict>
 	<key>Kernel</key>
 	<dict>
