@@ -900,13 +900,13 @@
 				<key>Arch</key>
 				<string>Any</string>
 				<key>BundlePath</key>
-				<string>itlwm.kext</string>
+				<string>AirportItlwm.kext</string>
 				<key>Comment</key>
 				<string>itlwm</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
-				<string>Contents/MacOS/itlwm</string>
+				<string>Contents/MacOS/AirportItlwm</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
@@ -923,6 +923,12 @@
 			<data></data>
 			<key>Cpuid1Mask</key>
 			<data></data>
+			<key>DummyPowerManagement</key>
+			<false/>
+			<key>MaxKernel</key>
+			<string></string>
+			<key>MinKernel</key>
+			<string></string>
 		</dict>
 		<key>Force</key>
 		<array/>
@@ -1009,11 +1015,15 @@
 			<true/>
 			<key>DummyPowerManagement</key>
 			<false/>
+			<key>ExtendBTFeatureFlags</key>
+			<false/>
 			<key>ExternalDiskIcons</key>
 			<false/>
 			<key>IncreasePciBarSize</key>
 			<false/>
 			<key>LapicKernelPanic</key>
+			<false/>
+			<key>LegacyCommpage</key>
 			<false/>
 			<key>PanicNoKextDump</key>
 			<true/>
@@ -1203,6 +1213,8 @@
 			<string>C02603130QXFV481M</string>
 			<key>ProcessorType</key>
 			<integer>3335</integer>
+			<key>SystemMemoryStatus</key>
+			<string>Auto</string>
 			<key>ROM</key>
 			<data></data>
 			<key>SpoofVendor</key>
