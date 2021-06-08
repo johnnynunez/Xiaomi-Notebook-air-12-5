@@ -13,6 +13,8 @@ Hi, this is Johnny, I'm an Engineering student. Life and university studies are 
 * macOS 10.13 High Sierra
 * macOS 10.14 Mojave
 * macOS 10.15 Catalina
+* macOS 11.00 Big Sur
+* macOS 12.00 Monterey
 
 ### What do I need?
 * Xiaomi Notebook Air 2016 12.5" m3-6y30
